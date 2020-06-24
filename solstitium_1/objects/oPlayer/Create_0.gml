@@ -4,7 +4,8 @@ spd = 2;
 walksp = spd;
 dagsp = round(spd * (sqrt(2) / 2));
 
-last_pressed = "";//cria a variável que vê qual foi o último movimento feito
+//cria a variável que vê qual foi o último movimento feito
+last_pressed = "";
 
 //acertado pelo ataque
 hitByAttack = ds_list_create();
