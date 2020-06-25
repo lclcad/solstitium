@@ -14,7 +14,8 @@ hitByAttack = ds_list_create();
 enum PLAYERSTATE
 {
 	IDLE,	//parado
-	ATTACK	//ataque
+	ATTACK,	//ataque
+	MOVEMENT //movimento
 }
 
 //estado do player como IDLE
