@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "5c762f0d-e3df-4f0d-986c-432c8800e743",
+            "Value": {
+                "id": "01071d84-6db4-4b91-a4f9-f87b1b75a3e2",
+                "resourcePath": "scripts\\Effects_Dash_Cooldown\\Effects_Dash_Cooldown.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5f65a8cc-1c52-4087-824c-3430cfbe9c76",
             "Value": {
                 "id": "654e9bed-a1dc-4db9-96c5-493bd5ef501c",
@@ -403,7 +411,8 @@
         "2414dffb-2b17-42ae-874d-0d82274a5374",
         "7236a1de-1be5-4857-ae10-01340f3bdea6",
         "57d63d25-6b98-4f2e-b639-c06becc6c36a",
-        "93231e4e-ebab-4a5a-ad81-f5e274c10e9a"
+        "93231e4e-ebab-4a5a-ad81-f5e274c10e9a",
+        "5c762f0d-e3df-4f0d-986c-432c8800e743"
     ],
     "tutorial": ""
 }
