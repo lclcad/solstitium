@@ -100,6 +100,10 @@ if(is_moving){
 		case 90: sprite_index = sPlayerWalkBack; break;
 		case 180: sprite_index = sPlayerWalkLeft; break;
 		case 270: sprite_index = sPlayerWalkFront; break;
+		case 45: if(sprite_index == sPlayerWalkRight || sprite_index == sPlayerWalkBack){break;}else{sprite_index = sPlayerWalkBack; break;}
+		case 135: if(sprite_index == sPlayerWalkLeft || sprite_index == sPlayerWalkBack){break;}else{sprite_index = sPlayerWalkBack; break;}
+		case 225: if(sprite_index == sPlayerWalkLeft || sprite_index == sPlayerWalkFront){break;}else{sprite_index = sPlayerWalkFront; break;}
+		case 315: if(sprite_index == sPlayerWalkRight || sprite_index == sPlayerWalkFront){break;}else{sprite_index = sPlayerWalkFront; break;}
 	}
 }
 else{
