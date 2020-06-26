@@ -48,6 +48,7 @@ if(is_moving){
 		}
 	}
 	
+	//situacao normal, ou no final do loop do dash
 	else if(dash_count == dash_frames || dash_count == 0)
 	{
 		if(dash_count == dash_frames)
@@ -55,11 +56,12 @@ if(is_moving){
 			can_dash = false;
 		}
 		dash_count = 0;
-		moveX = lengthdir_x(spd, dir);
+		moveX = lengthdir_x(spd, dir);//movimento normal, com spd normal
 		moveY = lengthdir_y(spd, dir);
 		lock_pressed = false;
 	}
-	//lidar com o dash cooldown	
+	
+	//lidar com o dash cooldown
 	if(can_dash == false && dash_cooldown != 0)
 	{
 		can_dash = false;
