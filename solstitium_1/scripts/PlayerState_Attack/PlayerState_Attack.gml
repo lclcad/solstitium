@@ -1,8 +1,18 @@
-hsp = 0;
-vsp = 0;
+if(mouseX ==0 && mouseY == 0){//confere se há uma direção do ataque
+	mouseX = mouse_x;
+	mouseY = mouse_y;
+	x_inicial = x;
+	y_inicial = y;
+}
+
+atk_dir = point_direction(x_inicial, y_inicial, mouseX, mouseY);
+moveX = lengthdir_x(2, atk_dir); //movimento horizontal do dash
+moveY = lengthdir_y(2, atk_dir); //movimento vertical do dash
+
+show_debug_message(atk_dir);
 
 //setar sprite de acordo com direcao de ataque
-if(last_pressed == "right" || last_pressed == "up")
+if(atk_dir >= 315 || atk_dir < 45)
 {
 	last_pressed = "right";
 	if(sprite_index != sPlayerAttackRight)
@@ -15,7 +25,21 @@ if(last_pressed == "right" || last_pressed == "up")
 mask_index = sPlayerAttackRightHB;
 }
 
-else if(last_pressed == "left" || last_pressed == "down")
+else if(atk_dir >= 45 && atk_dir <135)
+{
+	last_pressed = "up";
+	if(sprite_index != sPlayerAttackBack)
+	{
+		sprite_index = sPlayerAttackBack;
+		image_index = 0;
+		ds_list_clear(hitByAttack);
+	}
+
+mask_index = sPlayerAttackBackHB;
+}
+
+
+else if(atk_dir >= 135 && atk_dir <225)
 {
 	last_pressed = "left";
 	if(sprite_index != sPlayerAttackLeft)
@@ -27,7 +51,42 @@ else if(last_pressed == "left" || last_pressed == "down")
 
 mask_index = sPlayerAttackLeftHB;
 }
-else{}
+
+else if(atk_dir >= 225 && atk_dir <315)
+{
+	last_pressed = "down";
+	if(sprite_index != sPlayerAttackFront)
+	{
+		sprite_index = sPlayerAttackFront;
+		image_index = 0;
+		ds_list_clear(hitByAttack);
+	}
+
+mask_index = sPlayerAttackFrontHB;
+}
+if(image_index < 3){
+	if(place_meeting(x + moveX, y, oWall)) //colisão horizontal
+	{
+		while(!place_meeting(x+sign(moveX), y, oWall))
+		{
+			x += sign(moveX);
+		}
+		moveX = 0;
+	}
+	else{x += moveX;}//movimento
+
+
+	if(place_meeting(x, y + moveY, oWall)) //colisão horizontal
+	{
+		while(!place_meeting(x, y+sign(moveY), oWall))
+		{
+			y += sign(moveY);
+		}
+		moveY = 0;
+	}
+	else{y += moveY;}//movimento
+}
+
 var hitByAttackNow = ds_list_create();
 var hits = instance_place_list(x, y, oEnemy, hitByAttackNow, false);
 if(hits > 0)
@@ -53,5 +112,7 @@ if(animation_end())
 {
 	if(last_pressed == "right") {sprite_index = sPlayerIdleRight}
 	if(last_pressed == "left") {sprite_index = sPlayerIdleLeft}
+	mouseX = 0;
+	mouseY = 0;
 	state = PLAYERSTATE.IDLE;
 }

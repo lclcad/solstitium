@@ -1,8 +1,9 @@
-hsp = 0;
-vsp = 0;
 spd = 2;
-walksp = spd;
-dagsp = round(spd * (sqrt(2) / 2));
+dash_spd = spd * 4;
+mouseX = 0;
+mouseY = 0;
+dash_count = 0;
+dash_cooldown = 0;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";
@@ -15,7 +16,7 @@ enum PLAYERSTATE
 {
 	IDLE,	//parado
 	ATTACK,	//ataque
-	MOVEMENT //movimento
+	DASH    //dash
 }
 
 //estado do player como IDLE
