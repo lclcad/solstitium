@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "6744de17-14cd-4e38-9862-dfc0a6c45eb1",
+            "Value": {
+                "id": "838a59d8-8997-42b6-9c88-35bccabdb48b",
+                "resourcePath": "sprites\\sPlayerAttackFront\\sPlayerAttackFront.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b563bbc-5ba5-4c4d-a951-b6b01b607181",
             "Value": {
                 "id": "4644a389-7fbf-4713-bb5e-7e97b4953369",
@@ -419,14 +427,6 @@
             "Value": {
                 "id": "fd41fdb2-6955-45d6-9938-efc5a94ee783",
                 "resourcePath": "sprites\\sPlayerWalkFront\\sPlayerWalkFront.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c3804b36-e286-4883-b93e-65e08d11249e",
-            "Value": {
-                "id": "617b03b4-ed64-4ac1-84fb-9ac92e0aad6b",
-                "resourcePath": "sprites\\sPlayerAttackFront\\sPlayerAttackFront.yy",
                 "resourceType": "GMSprite"
             }
         },
