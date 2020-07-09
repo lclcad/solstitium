@@ -6,10 +6,13 @@ if(mouseX ==0 && mouseY == 0){//confere se há uma direção do ataque
 }
 
 atk_dir = point_direction(x_inicial, y_inicial, mouseX, mouseY);
-moveX = lengthdir_x(2, atk_dir); //movimento horizontal do dash
-moveY = lengthdir_y(2, atk_dir); //movimento vertical do dash
+moveX = lengthdir_x(2, atk_dir); //movimento horizontal do ataque
+moveY = lengthdir_y(2, atk_dir); //movimento vertical do ataque
 
-show_debug_message(atk_dir);
+//configura a hitbox do ataque
+if(atk_hitbox == noone){
+	atk_hitbox = instance_create_depth(x, y, depth - 200, oPlayerAttack);
+}
 
 //setar sprite de acordo com direcao de ataque
 if(atk_dir >= 315 || atk_dir < 45)
@@ -19,10 +22,11 @@ if(atk_dir >= 315 || atk_dir < 45)
 	{
 		sprite_index = sPlayerAttackRight;
 		image_index = 0;
-		ds_list_clear(hitByAttack);
+		with (atk_hitbox){
+			image_index = sPlayerAttackRightHB;
+			mask_index = sPlayerAttackRightHB;
+		}
 	}
-
-mask_index = sPlayerAttackRightHB;
 }
 
 else if(atk_dir >= 45 && atk_dir <135)
@@ -32,10 +36,11 @@ else if(atk_dir >= 45 && atk_dir <135)
 	{
 		sprite_index = sPlayerAttackBack;
 		image_index = 0;
-		ds_list_clear(hitByAttack);
+		with(atk_hitbox){
+			image_index = sPlayerAttackBackHB;
+			mask_index = sPlayerAttackBackHB;
+		}
 	}
-
-mask_index = sPlayerAttackBackHB;
 }
 
 
@@ -46,10 +51,11 @@ else if(atk_dir >= 135 && atk_dir <225)
 	{
 		sprite_index = sPlayerAttackLeft;
 		image_index = 0;
-		ds_list_clear(hitByAttack);
+		with(atk_hitbox){
+			image_index = sPlayerAttackLeftHB;
+			mask_index = sPlayerAttackLeftHB;
+		}
 	}
-
-mask_index = sPlayerAttackLeftHB;
 }
 
 else if(atk_dir >= 225 && atk_dir <315)
@@ -59,21 +65,24 @@ else if(atk_dir >= 225 && atk_dir <315)
 	{
 		sprite_index = sPlayerAttackFront;
 		image_index = 0;
-		ds_list_clear(hitByAttack);
+		with(atk_hitbox){
+			image_index = sPlayerAttackFrontHB;
+			mask_index = sPlayerAttackFrontHB;
+		}
 	}
-
-mask_index = sPlayerAttackFrontHB;
 }
+
 if(image_index < 3){
 	if(place_meeting(x + moveX, y, oWall)) //colisão horizontal
 	{
 		while(!place_meeting(x+sign(moveX), y, oWall))
 		{
 			x += sign(moveX);
+			atk_hitbox.x += sign(moveX);
 		}
 		moveX = 0;
 	}
-	else{x += moveX;}//movimento
+	else{x += moveX; atk_hitbox.x += moveX;}//movimento
 
 
 	if(place_meeting(x, y + moveY, oWall)) //colisão horizontal
@@ -81,37 +90,41 @@ if(image_index < 3){
 		while(!place_meeting(x, y+sign(moveY), oWall))
 		{
 			y += sign(moveY);
+			atk_hitbox.y += sign(moveY);
 		}
 		moveY = 0;
 	}
-	else{y += moveY;}//movimento
+	else{y += moveY; atk_hitbox.y += moveY;}//movimento
 }
 
-var hitByAttackNow = ds_list_create();
-var hits = instance_place_list(x, y, oEnemy, hitByAttackNow, false);
-if(hits > 0)
-{
-	for(var i = 0; i < hits; i++)
+//efetuação do ataque
+with(atk_hitbox){
+	var hitByAttackNow = ds_list_create(); //cria a lista dos inimigos acertados
+	var hits = instance_place_list(x, y, oEnemy, hitByAttackNow, false); //ve quais inimigos foram acertados
+	if(hits > 0)
 	{
-		var hitID = hitByAttackNow[| i]; //acha a entrada da ds list
-		//se nao existe um objeto que nao ta na lista de obj ja atacados(-1 = nao achou)
-		if(ds_list_find_index(hitByAttack, hitID) == -1)
+		for(var i = 0; i < hits; i++)
 		{
-			ds_list_add(hitByAttack, hitID);
-			with(hitID)
+			var hitID = hitByAttackNow[| i]; //acha a entrada da ds list
+			//se nao existe um objeto que nao ta na lista de obj ja atacados(-1 = nao achou)
+			if(ds_list_find_index(hitByAttack, hitID) == -1)
 			{
-				EnemyHit(2);
+				ds_list_add(hitByAttack, hitID);
+				with(hitID)
+				{
+					EnemyHit(1);
+				}
 			}
 		}
 	}
+	ds_list_destroy(hitByAttackNow);
 }
-ds_list_destroy(hitByAttackNow);
-mask_index = sPlayerIdleFront;
 
-if(animation_end())
+
+if(animation_end())//checa se o ataque terminou
 {
-	if(last_pressed == "right") {sprite_index = sPlayerIdleRight}
-	if(last_pressed == "left") {sprite_index = sPlayerIdleLeft}
+	atk_hitbox = noone;
+	instance_destroy(oPlayerAttack);
 	mouseX = 0;
 	mouseY = 0;
 	state = PLAYERSTATE.IDLE;

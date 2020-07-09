@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "28cf30fe-9218-4e9a-b742-99333770a400",
+            "Value": {
+                "id": "8a08aced-ae5c-4529-8b98-d3d5a931a816",
+                "resourcePath": "objects\\oPlayerDashEffect\\oPlayerDashEffect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f14a4f5-9e4f-4c4b-a057-50953b64175b",
             "Value": {
                 "id": "5dacb6d3-37cb-42b5-b56a-dacb8ca4ce94",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "b16c1f7f-12a2-48e4-9d51-27fd481670f9",
                 "resourcePath": "sprites\\sBG_desert\\sBG_desert.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "34995ada-c995-450f-8b2a-605d73ddaea8",
+            "Value": {
+                "id": "e64f4dad-a48b-4676-a2fc-3af8b7daf05d",
+                "resourcePath": "sprites\\sEnemyHit\\sEnemyHit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -140,6 +156,14 @@
                 "id": "41c59d6d-c4c7-4866-8b4e-956fe6e3e348",
                 "resourcePath": "sprites\\sPlayerWalkRight\\sPlayerWalkRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4bb89d5f-ffd6-41cb-8c81-419ef1ad7bf7",
+            "Value": {
+                "id": "411c4fc9-6343-4dd5-a249-efaa1fe641e3",
+                "resourcePath": "views\\4bb89d5f-ffd6-41cb-8c81-419ef1ad7bf7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -319,10 +343,10 @@
             }
         },
         {
-            "Key": "8d3c3a05-447e-4ab1-99f2-b2253c4d12cc",
+            "Key": "8dbbdf64-5571-49f5-b868-7b0df1fd5010",
             "Value": {
-                "id": "04ac0090-5d2f-4695-8915-bed8af74793b",
-                "resourcePath": "sprites\\sPlayerAttackBack\\sPlayerAttackBack.yy",
+                "id": "34a114a6-3aa1-4f40-bb31-55bfba90d78d",
+                "resourcePath": "sprites\\sPlayerDashLeft\\sPlayerDashLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -348,6 +372,22 @@
                 "id": "356fbd51-049c-423e-b525-ab09a50cd7de",
                 "resourcePath": "scripts\\animation_end\\animation_end.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "964f386c-12fd-4ff8-b395-3f0c44d48f1a",
+            "Value": {
+                "id": "845d67e5-f0ff-4e67-ae22-03cab01d6709",
+                "resourcePath": "sprites\\sPlayerAttackBack\\sPlayerAttackBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ba7c678-8435-4d81-81f5-a9bf1163f222",
+            "Value": {
+                "id": "6cf6bc8c-dc9a-43cf-ab1b-baa608592981",
+                "resourcePath": "objects\\oPlayerAttack\\oPlayerAttack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -468,6 +508,14 @@
                 "id": "61701609-4617-4e57-9189-461ff1838a73",
                 "resourcePath": "views\\e2623d97-0f18-46ad-b0db-28e347e1d134.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e45d4510-52cd-4c16-9b01-388b7d6482d2",
+            "Value": {
+                "id": "39a2a070-1cca-451b-91dd-a6b32db90f1b",
+                "resourcePath": "sprites\\sPlayerDashRight\\sPlayerDashRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

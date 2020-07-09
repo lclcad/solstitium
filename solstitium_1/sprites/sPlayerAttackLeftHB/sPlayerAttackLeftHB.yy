@@ -231,7 +231,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "Layer 1",
-            "opacity": 50,
+            "opacity": 100,
             "visible": true
         },
         {
@@ -248,7 +248,7 @@
     ],
     "origin": 4,
     "originLocked": true,
-    "playbackSpeed": 10,
+    "playbackSpeed": 20,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": true,

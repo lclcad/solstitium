@@ -1,8 +1,8 @@
 //cria um obj de camera
 camera = camera_create();
 
-cam_width = 500; //largura da camera
-cam_height = 325; //altura
+cam_width = 384; //largura da camera
+cam_height = 216; //altura
 
 follow = oPlayer;//seta o obj a ser seguido
 
