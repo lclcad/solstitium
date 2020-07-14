@@ -57,7 +57,7 @@ else if(dash_dir >315 || dash_dir < 45){
 
 //cria o efeito de velocidade
 if(image_index mod 120){
-	var dasheffect = instance_create_depth(x, y, depth + 1, oDashEffect);
+	var dasheffect = instance_create_depth(x, y, depth + 1, oPlayerDashEffect);
 	dasheffect.sprite_index = sprite_index;
 }	
 	
