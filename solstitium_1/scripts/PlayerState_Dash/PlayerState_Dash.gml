@@ -1,6 +1,8 @@
 if(mouseX == 0 && mouseY == 0){ //confere se há uma direçao do dash
+	//determina a direção do dash
 	mouseX = mouse_x;
 	mouseY = mouse_y;
+	//determina a posição inicial do player
 	x_inicial = x;
 	y_inicial = y;
 }
@@ -12,6 +14,7 @@ moveY = lengthdir_y(dash_spd, dash_dir); //movimento vertical do dash
 
 //seta o sprite na direção do dash	
 if(dash_dir >= 45 && dash_dir < 135){
+	last_pressed = "up";
 	if(sprite_index != sPlayerDashBack){
 		sprite_index = sPlayerDashBack;
 		image_index = 0;
@@ -25,12 +28,13 @@ else if(dash_dir >= 135 && dash_dir < 225){
 	}
 }
 else if(dash_dir >= 225 && dash_dir < 315){
+	last_pressed = "down"
 	if(sprite_index != sPlayerDashFront){
 		sprite_index = sPlayerDashFront;
 		image_index = 0;
 	}
 }
-else if(dash_dir >= 315 || dash_dir < 45){
+else{
 	last_pressed="right";
 	if(sprite_index != sPlayerDashRight){
 		sprite_index = sPlayerDashRight;

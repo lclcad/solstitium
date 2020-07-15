@@ -1,6 +1,8 @@
 if(mouseX ==0 && mouseY == 0){//confere se há uma direção do ataque
+	//determina a direção do ataque
 	mouseX = mouse_x;
 	mouseY = mouse_y;
+	//determina a posição inicial do player
 	x_inicial = x;
 	y_inicial = y;
 }
@@ -14,7 +16,7 @@ if(atk_hitbox == noone){
 	atk_hitbox = instance_create_depth(x, y, depth - 200, oPlayerAttack);
 }
 
-//setar sprite de acordo com direcao de ataque
+//seta o sprite de acordo com direcao de ataque
 if(atk_dir >= 315 || atk_dir < 45)
 {
 	last_pressed = "right";
@@ -72,7 +74,7 @@ else if(atk_dir >= 225 && atk_dir <315)
 	}
 }
 
-if(image_index < 3){
+if(image_index < 3){ //verifica o frame do ataque para realizar movimento
 	if(place_meeting(x + moveX, y, oWall)) //colisão horizontal
 	{
 		while(!place_meeting(x+sign(moveX), y, oWall))
@@ -82,10 +84,10 @@ if(image_index < 3){
 		}
 		moveX = 0;
 	}
-	else{x += moveX; atk_hitbox.x += moveX;}//movimento
+	else{x += moveX; atk_hitbox.x += moveX;}//movimento horizontal
 
 
-	if(place_meeting(x, y + moveY, oWall)) //colisão horizontal
+	if(place_meeting(x, y + moveY, oWall)) //colisão vertical
 	{
 		while(!place_meeting(x, y+sign(moveY), oWall))
 		{
@@ -94,7 +96,7 @@ if(image_index < 3){
 		}
 		moveY = 0;
 	}
-	else{y += moveY; atk_hitbox.y += moveY;}//movimento
+	else{y += moveY; atk_hitbox.y += moveY;}//movimento vertical
 }
 
 //efetuação do ataque
