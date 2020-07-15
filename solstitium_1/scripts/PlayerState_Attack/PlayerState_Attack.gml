@@ -1,4 +1,4 @@
-if(mouseX ==0 && mouseY == 0){//confere se há uma direção do ataque
+if(mouseX == 0 && mouseY == 0){//confere se há uma direção do ataque
 	//determina a direção do ataque
 	mouseX = mouse_x;
 	mouseY = mouse_y;
@@ -44,7 +44,6 @@ else if(atk_dir >= 45 && atk_dir <135)
 		}
 	}
 }
-
 
 else if(atk_dir >= 135 && atk_dir <225)
 {

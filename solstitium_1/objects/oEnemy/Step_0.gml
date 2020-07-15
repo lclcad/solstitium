@@ -1,5 +1,5 @@
-if(hp != 0){//checagem para a animação de dano
-	if(animation_end()){
-		sprite_index = sEnemy;
-	}
+switch (state)
+{
+	case ENEMYSTATE.IDLE: EnemyState_Idle(); break;
+	case ENEMYSTATE.ATTACK: EnemyState_Attack(); break;
 }
