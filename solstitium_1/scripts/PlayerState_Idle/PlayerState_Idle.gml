@@ -1,6 +1,6 @@
 hInput = key_right - key_left; //pega o input de movimento horizontal
 vInput = key_down - key_up; //pega o input de movimento vertical
-is_moving = key_left + key_right + key_up + key_down; //pega se há movimento
+is_moving = bool(key_left + key_right + key_up + key_down); //pega se há movimento
 
 if(is_moving){ //checa se há movimento
 	dir = point_direction(0, 0, hInput, vInput); //define a direção do movimento
@@ -45,6 +45,7 @@ else{ //se não houver movimento seta o sprite idle
 	else if(last_pressed == "left"){sprite_index = sPlayerIdleLeft}
 	else if(last_pressed == "right"){sprite_index = sPlayerIdleRight}
 	else if(last_pressed == "up"){sprite_index = sPlayerIdleBack}
+	is_moving = false;
 }
 
 if(dash_cooldown <120){dash_cooldown +=1} //recarga do dash
