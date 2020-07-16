@@ -8,9 +8,9 @@ if(is_moving){ //checa se há movimento
 	moveY = lengthdir_y(spd, dir); //define o movimento vertical
 
 
-	if(place_meeting(x + moveX, y, oWall)) //checa se há colisão horizontal
+	if(place_meeting(x + moveX, y, collision)) //checa se há colisão horizontal
 	{
-		while(!place_meeting(x+sign(moveX), y, oWall))
+		while(!place_meeting(x+sign(moveX), y, collision))
 		{
 			x += sign(moveX);
 		}
@@ -19,9 +19,9 @@ if(is_moving){ //checa se há movimento
 	else{x += moveX;}//movimento horizontal
 
 
-	if(place_meeting(x, y + moveY, oWall)) //checa se há colisão vertical
+	if(place_meeting(x, y + moveY, collision)) //checa se há colisão vertical
 	{
-		while(!place_meeting(x, y+sign(moveY), oWall))
+		while(!place_meeting(x, y+sign(moveY), collision))
 		{
 			y += sign(moveY);
 		}

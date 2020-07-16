@@ -42,9 +42,9 @@ else{
 	}
 }
 	
-	if(place_meeting(x + moveX, y, oWall)) //colisão horizontal
+	if(place_meeting(x + moveX, y, collision)) //colisão horizontal
 	{
-		while(!place_meeting(x+sign(moveX), y, oWall))
+		while(!place_meeting(x+sign(moveX), y, collision))
 		{
 			x += sign(moveX);
 		}
@@ -53,9 +53,9 @@ else{
 	else{x += moveX;}//movimento
 
 
-	if(place_meeting(x, y + moveY, oWall)) //colisão horizontal
+	if(place_meeting(x, y + moveY, collision)) //colisão horizontal
 	{
-		while(!place_meeting(x, y+sign(moveY), oWall))
+		while(!place_meeting(x, y+sign(moveY), collision))
 		{
 			y += sign(moveY);
 		}

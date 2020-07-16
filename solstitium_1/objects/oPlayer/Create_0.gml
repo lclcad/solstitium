@@ -4,6 +4,7 @@ mouseX = 0;
 mouseY = 0;
 dash_cooldown = 0;
 atk_hitbox = noone;
+collision = oParentCollision;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";

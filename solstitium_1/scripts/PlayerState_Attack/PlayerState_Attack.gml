@@ -74,9 +74,9 @@ else if(atk_dir >= 225 && atk_dir <315)
 }
 
 if(image_index < 3){ //verifica o frame do ataque para realizar movimento
-	if(place_meeting(x + moveX, y, oWall)) //colisão horizontal
+	if(place_meeting(x + moveX, y, collision)) //colisão horizontal
 	{
-		while(!place_meeting(x+sign(moveX), y, oWall))
+		while(!place_meeting(x+sign(moveX), y, collision))
 		{
 			x += sign(moveX);
 			atk_hitbox.x += sign(moveX);
@@ -86,9 +86,9 @@ if(image_index < 3){ //verifica o frame do ataque para realizar movimento
 	else{x += moveX; atk_hitbox.x += moveX;}//movimento horizontal
 
 
-	if(place_meeting(x, y + moveY, oWall)) //colisão vertical
+	if(place_meeting(x, y + moveY, collision)) //colisão vertical
 	{
-		while(!place_meeting(x, y+sign(moveY), oWall))
+		while(!place_meeting(x, y+sign(moveY), collision))
 		{
 			y += sign(moveY);
 			atk_hitbox.y += sign(moveY);

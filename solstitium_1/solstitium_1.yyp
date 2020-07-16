@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "08e46a4f-b60a-44a0-a268-da7dcb43cd1e",
+            "Value": {
+                "id": "3fc1c626-9e20-4f58-ae7c-932d4b3634e4",
+                "resourcePath": "objects\\oParentCollision\\oParentCollision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09c43b42-2ef4-48f6-b975-0f363c7bf3ef",
             "Value": {
                 "id": "5f889e2d-d96f-4640-983d-c8174a1ced0b",
@@ -84,6 +92,14 @@
                 "id": "ad63b8e0-3e40-4dba-beac-ac961cf011eb",
                 "resourcePath": "sprites\\sPlayerAttackLeftHB\\sPlayerAttackLeftHB.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "11350a01-6c46-458c-9fe2-f4b67f1f5fae",
+            "Value": {
+                "id": "511235b3-373b-449d-9546-382d735f51de",
+                "resourcePath": "views\\11350a01-6c46-458c-9fe2-f4b67f1f5fae.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
