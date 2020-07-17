@@ -1,3 +1,4 @@
+hp = 10;
 spd = 2;
 dash_spd = spd * 6;
 mouseX = 0;
