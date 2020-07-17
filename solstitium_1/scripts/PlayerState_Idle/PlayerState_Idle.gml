@@ -30,10 +30,10 @@ if(is_moving){ //checa se há movimento
 	else{y += moveY;}//movimento vertical
 
 	switch(dir){ //seta o sprite na direção do movimento
-		case 0: sprite_index = sPlayerWalkRight; break;
-		case 90: sprite_index = sPlayerWalkBack; break;
-		case 180: sprite_index = sPlayerWalkLeft; break;
-		case 270: sprite_index = sPlayerWalkFront; break;
+		case 0: sprite_index = sPlayerWalkRight; last_dir=dir; break;
+		case 90: sprite_index = sPlayerWalkBack; last_dir=dir; break;
+		case 180: sprite_index = sPlayerWalkLeft; last_dir=dir; break;
+		case 270: sprite_index = sPlayerWalkFront; last_dir=dir; break;
 		case 45: if(sprite_index == sPlayerWalkRight || sprite_index == sPlayerWalkBack){break;}else{sprite_index = sPlayerWalkBack; break;}
 		case 135: if(sprite_index == sPlayerWalkLeft || sprite_index == sPlayerWalkBack){break;}else{sprite_index = sPlayerWalkBack; break;}
 		case 225: if(sprite_index == sPlayerWalkLeft || sprite_index == sPlayerWalkFront){break;}else{sprite_index = sPlayerWalkFront; break;}
