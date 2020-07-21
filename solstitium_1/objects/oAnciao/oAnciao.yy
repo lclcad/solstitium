@@ -1,24 +1,15 @@
 {
-    "id": "dae283f2-f898-4904-adfd-d1b44d864aab",
+    "id": "e9f59a18-5805-483f-8e04-91edfd003c26",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oDataCarrier",
+    "name": "oAnciao",
     "eventList": [
-        {
-            "id": "83e716b6-ff8e-4a61-89b4-3a464aca775d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "dae283f2-f898-4904-adfd-d1b44d864aab"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "24230290-7a88-4f3c-8f63-44edc190a1db",
     "visible": true
 }

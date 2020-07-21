@@ -6,6 +6,7 @@ mouseY = 0;
 dash_cooldown = 0;
 atk_hitbox = noone;
 collision = oParentCollision;
+targetEnter = noone;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";
@@ -15,7 +16,8 @@ enum PLAYERSTATE
 {
 	IDLE,	//parado
 	ATTACK,	//ataque
-	DASH    //dash
+	DASH,   //dash
+	DIALOGUE//dialogo
 }
 
 //estado do player como IDLE

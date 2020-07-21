@@ -15,4 +15,5 @@ switch(state)
 	case PLAYERSTATE.IDLE: PlayerState_Idle(); break;
 	case PLAYERSTATE.ATTACK: PlayerState_Attack(); break;
 	case PLAYERSTATE.DASH: PlayerState_Dash(); break;
+	case PLAYERSTATE.DIALOGUE: PlayerState_Dialogue(); break;
 }
