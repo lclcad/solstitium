@@ -2,7 +2,7 @@
     "id": "837a1e74-ea94-4632-92cf-17fbe96dd17b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oShowDialogue",
+    "name": "oDialogueIndicator",
     "eventList": [
         {
             "id": "0a07906f-5e96-4ba1-a257-fd831b81481d",

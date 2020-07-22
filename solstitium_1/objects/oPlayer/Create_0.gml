@@ -7,6 +7,7 @@ dash_cooldown = 0;
 atk_hitbox = noone;
 collision = oParentCollision;
 targetEnter = noone;
+current_dialog = noone;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";

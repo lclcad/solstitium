@@ -1,7 +1,5 @@
 global.display_widht = display_get_width(); //pega a largura do monitor
 global.display_height = display_get_height(); //pega a altura do monitor
-show_debug_message(global.display_widht);
-show_debug_message(global.display_height);
 global.aspect_ratio = global.display_widht/global.display_height; //define a proporção do monitor
 
 for(i=1; i<=room_last; i++){
