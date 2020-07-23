@@ -8,6 +8,8 @@ if(go_to_next_box && dialogue.page == array_length_1d(dialogue.text) - 1 && dial
 }
 else if(go_to_next_box && dialogue.text_counter == dialogue.text_lenght){ //verifica se o texto ja terminou de aparecer e passa pra proxima pagina do dialogo
 	with(dialogue){
+		blink_count = 0;
+		current_alpha = 0;
 		text_counter = 0;
 		page_change = true;
 		page ++;	

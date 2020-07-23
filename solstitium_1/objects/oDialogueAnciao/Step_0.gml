@@ -1,5 +1,5 @@
 if(place_meeting(x, y, player)){ //checa a colisao
-	if(!instance_exists(diag_indicator)){
+	if(!instance_exists(diag_indicator) && player.state != PLAYERSTATE.DIALOGUE){
 		diag_indicator = instance_create_depth(dialog_char.x, dialog_char.y, dialog_char.depth - 1, oDialogueIndicator); //cria um indicador visual de que há um diálogo
 	}
 	with(diag_indicator){ //efeito de fade in do indicador
@@ -9,6 +9,7 @@ if(place_meeting(x, y, player)){ //checa a colisao
 	}
 	if(keyboard_check(ord("E"))){ //checa se o botao de ativar o dialogo foi pressionado
 		if(!instance_exists(oTextbox)){
+			if(instance_exists(diag_indicator)){instance_destroy(diag_indicator)}
 			dialogue_box = instance_create_depth(0, 0, -9999, oTextbox); //cria a caixa do dialogo
 			player.dialog_char = dialog_char; //seta o variavel do personagem do dialogo
 			player.state = PLAYERSTATE.DIALOGUE; //seta o estado do player como dentro de um dialogo
@@ -18,6 +19,12 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				obj_to_show = other.dialog_char;
 				x_offset = cam_width/2;
 				y_offset = cam_height/2;
+			}
+			with(dialogue_box){
+				text[0] = "meia noite, horario oficial do oleo de macaco";
+				text[1] = "eu sou ednaldo, pereira, moro no distrito de cachoreia dos santos, estado da paraiba, tenho mais de um cd gravado, tenho clips gravados";
+				text[2] = "eae lucas tudo bem kkkkkkkkkkk mama meu saco ta ligado da um sugao forte com toda a sua forca";
+				event_perform(ev_other, ev_user1);
 			}
 		}
 	}
