@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "079265d6-832b-44e0-8e68-58ca9b29f9dd",
-            "Value": {
-                "id": "f12a6077-a89d-4971-b61f-1ff98585b5dd",
-                "resourcePath": "sprites\\sFadeBlack\\sFadeBlack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "08c012d3-7932-4747-8d56-215e0c7f818c",
             "Value": {
                 "id": "034eb07b-6846-43ed-9a75-0836e5d40847",
@@ -579,6 +571,14 @@
             "Value": {
                 "id": "4738bbb7-6fbe-4a10-b613-575fc3009645",
                 "resourcePath": "views\\8b0bb582-72ac-49b0-ac83-5af3b03a6e21.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cc0f1b5-bfa7-45d8-a861-3171689794ad",
+            "Value": {
+                "id": "745f4ce4-6457-43b2-bb6e-85349ee583c0",
+                "resourcePath": "views\\8cc0f1b5-bfa7-45d8-a861-3171689794ad.yy",
                 "resourceType": "GMFolder"
             }
         },

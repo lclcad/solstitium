@@ -73,7 +73,7 @@ else if(atk_dir >= 225 && atk_dir <315)
 	}
 }
 
-if(image_index < 3){ //verifica o frame do ataque para realizar movimento
+if(image_index <= 3){ //verifica o frame do ataque para realizar movimento
 	if(place_meeting(x + moveX, y, collision)) //colisão horizontal
 	{
 		while(!place_meeting(x+sign(moveX), y, collision))

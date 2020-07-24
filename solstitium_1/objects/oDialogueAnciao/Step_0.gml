@@ -10,7 +10,7 @@ if(place_meeting(x, y, player)){ //checa a colisao
 	if(keyboard_check(ord("E"))){ //checa se o botao de ativar o dialogo foi pressionado
 		if(!instance_exists(oTextbox)){
 			if(instance_exists(diag_indicator)){instance_destroy(diag_indicator)}
-			dialogue_box = instance_create_depth(0, 0, -9999, oTextbox); //cria a caixa do dialogo
+			dialogue_box = instance_create_depth(0, 0, 0, oTextbox); //cria a caixa do dialogo
 			player.dialog_char = dialog_char; //seta o variavel do personagem do dialogo
 			player.state = PLAYERSTATE.DIALOGUE; //seta o estado do player como dentro de um dialogo
 			player.current_dialog = dialogue_box; //seta a variavel caixa de dialogo

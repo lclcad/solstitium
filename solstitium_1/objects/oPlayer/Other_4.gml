@@ -2,6 +2,7 @@ if(instance_exists(oDataCarrier)){
 	hp = oDataCarrier.hp;
 	dash_cooldown = oDataCarrier.dash_cooldown;
 	targetEnter = oDataCarrier.targetEnter;
+	last_pressed = oDataCarrier.last_pressed;
 	
 	instance_destroy(oDataCarrier);
 	

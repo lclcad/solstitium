@@ -3,7 +3,7 @@ key_right = keyboard_check(ord("D"));
 key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
 key_attack = mouse_check_button_pressed(mb_left);
-key_dash = keyboard_check(vk_shift);
+key_dash = keyboard_check_pressed(vk_shift);
 
 if(key_down){last_pressed = "down"}
 if(key_left){last_pressed = "left"}
