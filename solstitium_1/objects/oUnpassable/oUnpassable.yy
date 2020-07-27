@@ -1,14 +1,14 @@
 {
-    "id": "05dbcd89-5c24-40ce-8664-081da6053e15",
+    "id": "0f305083-cf35-457e-bf3b-8b4f29e74fbe",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oEnemyDead",
+    "name": "oUnpassable",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "08e46a4f-b60a-44a0-a268-da7dcb43cd1e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1bb9aedc-44ae-4e06-a34b-bcb427850834",
-    "visible": true
+    "spriteId": "a9e8ff51-1f86-40a9-aa20-67839124b74b",
+    "visible": false
 }

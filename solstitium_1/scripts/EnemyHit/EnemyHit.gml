@@ -7,4 +7,5 @@ if(hp <= 0)
 {
 	hp = 0
 	sprite_index = sEnemyDead;
+	state = ENEMYSTATE.DEAD;
 }

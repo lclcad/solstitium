@@ -8,6 +8,7 @@ atk_hitbox = noone;
 collision = oParentCollision;
 targetEnter = noone;
 current_dialog = noone;
+current_player_attack_damage = 1;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";

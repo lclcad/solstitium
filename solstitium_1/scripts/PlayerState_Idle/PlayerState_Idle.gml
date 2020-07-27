@@ -48,7 +48,7 @@ else{ //se não houver movimento seta o sprite idle
 	is_moving = false;
 }
 
-if(dash_cooldown <120){dash_cooldown +=1} //recarga do dash
+if(dash_cooldown < 120){dash_cooldown += 1} //recarga do dash
 
 if(key_dash && dash_cooldown == 120) state = PLAYERSTATE.DASH; //checa se houve dash
 if(key_attack) state = PLAYERSTATE.ATTACK; //checa se houve ataque

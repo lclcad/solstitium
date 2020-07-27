@@ -1,3 +1,5 @@
+current_player_attack_damage = 1;//dá a abertura pra botar outras armas e tal
+
 if(mouseX == 0 && mouseY == 0){//confere se há uma direção do ataque
 	//determina a direção do ataque
 	mouseX = mouse_x;
@@ -113,7 +115,7 @@ with(atk_hitbox){
 				ds_list_add(hitByAttack, hitID);
 				with(hitID)
 				{
-					EnemyHit(1);
+					EnemyHit(oPlayer.current_player_attack_damage);
 				}
 			}
 		}
