@@ -1,6 +1,5 @@
 hp = 2;
 attack_threshold = 40;
-current_enemy_attack_damage = 1;
 hitByAttack = ds_list_create();
 can_enemy_attack = false;
 attack_cooldown = 0;

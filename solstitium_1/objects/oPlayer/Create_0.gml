@@ -19,7 +19,8 @@ enum PLAYERSTATE
 	IDLE,	//parado
 	ATTACK,	//ataque
 	DASH,   //dash
-	DIALOGUE//dialogo
+	DIALOGUE,//dialogo
+	HIT     //acertadp por um ataque
 }
 
 //estado do player como IDLE

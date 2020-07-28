@@ -1,3 +1,5 @@
+hitByAttack = ds_list_create();
+
 var pl_dir = point_direction(x, y, oPlayer.x, oPlayer.y);
 
 //direita
@@ -58,7 +60,7 @@ if(hits > 0)
 			ds_list_add(hitByAttack, hitID);
 			with(hitID)
 			{
-				PlayerHit(oEnemy.current_enemy_attack_damage);
+				oPlayer.state = PLAYERSTATE.HIT;
 			}
 		}
 	}
@@ -67,6 +69,8 @@ if(hits > 0)
 
 if(animation_end())
 {
+	ds_list_destroy(hitByAttack);
+	mask_index = sEnemy;
 	state = ENEMYSTATE.IDLE;
 	attack_cooldown = 0;
 	can_enemy_attack = false;

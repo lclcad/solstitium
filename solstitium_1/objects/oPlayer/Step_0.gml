@@ -16,4 +16,5 @@ switch(state)
 	case PLAYERSTATE.ATTACK: PlayerState_Attack(); break;
 	case PLAYERSTATE.DASH: PlayerState_Dash(); break;
 	case PLAYERSTATE.DIALOGUE: PlayerState_Dialogue(current_dialog); break;
+	case PLAYERSTATE.HIT: PlayerHit(); break;
 }
