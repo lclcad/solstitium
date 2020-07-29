@@ -60,7 +60,7 @@ if(hits > 0)
 			ds_list_add(hitByAttack, hitID);
 			with(hitID)
 			{
-				oPlayer.state = PLAYERSTATE.HIT;
+				state = PLAYERSTATE.HIT;
 			}
 		}
 	}

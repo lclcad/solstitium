@@ -41,8 +41,8 @@ else{
 		image_index = 0;
 	}
 }
-	
-	if(place_meeting(x + moveX, y, collision)) //colisão horizontal
+	var collisionH = instance_place(x + moveX, y, collision);
+	if(collisionH != noone && collisionH.collidable) //checa se há colisão horizontal
 	{
 		while(!place_meeting(x+sign(moveX), y, collision))
 		{
@@ -52,8 +52,8 @@ else{
 	}
 	else{x += moveX;}//movimento
 
-
-	if(place_meeting(x, y + moveY, collision)) //colisão horizontal
+	var collisionV = instance_place(x, y + moveY, collision);
+	if(collisionV != noone && collisionV.collidable) //checa se há colisão vertical
 	{
 		while(!place_meeting(x, y+sign(moveY), collision))
 		{

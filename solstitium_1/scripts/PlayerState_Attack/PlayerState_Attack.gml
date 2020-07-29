@@ -76,7 +76,8 @@ else if(atk_dir >= 225 && atk_dir <315)
 }
 
 if(image_index <= 3){ //verifica o frame do ataque para realizar movimento
-	if(place_meeting(x + moveX, y, collision)) //colisão horizontal
+	var collisionH = instance_place(x + moveX, y, collision);
+	if(collisionH != noone && collisionH.collidable) //checa se há colisão horizontal
 	{
 		while(!place_meeting(x+sign(moveX), y, collision))
 		{
@@ -87,8 +88,8 @@ if(image_index <= 3){ //verifica o frame do ataque para realizar movimento
 	}
 	else{x += moveX; atk_hitbox.x += moveX;}//movimento horizontal
 
-
-	if(place_meeting(x, y + moveY, collision)) //colisão vertical
+	var collisionV = instance_place(x, y + moveY, collision);
+	if(collisionV != noone && collisionV.collidable) //checa se há colisão vertical
 	{
 		while(!place_meeting(x, y+sign(moveY), collision))
 		{

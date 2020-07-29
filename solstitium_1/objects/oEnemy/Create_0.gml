@@ -1,3 +1,5 @@
+collidable = false;
+
 hp = 2;
 attack_threshold = 40;
 hitByAttack = ds_list_create();

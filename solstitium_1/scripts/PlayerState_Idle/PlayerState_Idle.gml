@@ -8,7 +8,8 @@ if(is_moving){ //checa se há movimento
 	moveY = lengthdir_y(spd, dir); //define o movimento vertical
 
 
-	if(place_meeting(x + moveX, y, collision)) //checa se há colisão horizontal
+	var collisionH = instance_place(x + moveX, y, collision);
+	if(collisionH != noone && collisionH.collidable) //checa se há colisão horizontal
 	{
 		while(!place_meeting(x+sign(moveX), y, collision))
 		{
@@ -18,8 +19,8 @@ if(is_moving){ //checa se há movimento
 	}
 	else{x += moveX;}//movimento horizontal
 
-
-	if(place_meeting(x, y + moveY, collision)) //checa se há colisão vertical
+	var collisionV = instance_place(x, y + moveY, collision);
+	if(collisionV != noone && collisionV.collidable) //checa se há colisão vertical
 	{
 		while(!place_meeting(x, y+sign(moveY), collision))
 		{

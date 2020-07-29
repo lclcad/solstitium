@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "oWall",
     "eventList": [
-        
+        {
+            "id": "4b9dc919-3308-41d0-b504-85789d19898a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "5b2e8fcd-ef39-424d-a3ce-3acd35aa37b1"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "08e46a4f-b60a-44a0-a268-da7dcb43cd1e",
+    "parentObjectId": "7fc59295-b405-4dbd-9901-6cacbc803ffc",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -25,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "5fb71939-ea72-4071-9a81-4fae111bcc6c",
-    "visible": true
+    "visible": false
 }

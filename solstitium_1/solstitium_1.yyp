@@ -58,7 +58,7 @@
             "Key": "08c012d3-7932-4747-8d56-215e0c7f818c",
             "Value": {
                 "id": "034eb07b-6846-43ed-9a75-0836e5d40847",
-                "resourcePath": "rooms\\_display_init\\_display_init.yy",
+                "resourcePath": "rooms\\game_init\\game_init.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -259,6 +259,14 @@
             "Value": {
                 "id": "7c34524a-357a-4f27-ba9d-98ed8d29b81a",
                 "resourcePath": "objects\\oDialogueAnciao\\oDialogueAnciao.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3db16d51-c9ec-428b-aef8-3754761e1c2d",
+            "Value": {
+                "id": "c63d960c-6d60-44cc-ac09-ac28ba8f5394",
+                "resourcePath": "objects\\oDepthSorter\\oDepthSorter.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -548,6 +556,14 @@
                 "id": "cb357987-0335-4897-acf9-d58519ef8b19",
                 "resourcePath": "views\\7e3fb5f3-b45c-47a3-97a4-6a6c0ed512f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7fc59295-b405-4dbd-9901-6cacbc803ffc",
+            "Value": {
+                "id": "aa77b88e-9ddc-4444-9017-6c316cb8d349",
+                "resourcePath": "objects\\oParentDepthObject\\oParentDepthObject.yy",
+                "resourceType": "GMObject"
             }
         },
         {
