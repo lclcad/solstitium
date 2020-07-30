@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "57aa9285-a8a3-4bda-a7ec-1d701fc1c50f",
+            "Value": {
+                "id": "4053bbaf-f469-4d25-a7ac-175047e8858b",
+                "resourcePath": "rooms\\roomBoss1\\roomBoss1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "57d63d25-6b98-4f2e-b639-c06becc6c36a",
             "Value": {
                 "id": "0bf7f905-833b-4d3e-9ae1-934936cd269f",
@@ -364,6 +372,14 @@
                 "id": "d53872fc-2e0e-4352-bc4f-a4722438de85",
                 "resourcePath": "objects\\oWall\\oWall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5f0020c3-710d-4872-ab6e-b5b994954dac",
+            "Value": {
+                "id": "6c5fa2a3-8109-4623-9dcd-f7425761e6fb",
+                "resourcePath": "views\\5f0020c3-710d-4872-ab6e-b5b994954dac.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "6486dbe6-b74a-4af5-a229-27fa10b6cb5c",
                 "resourcePath": "objects\\oShowObj\\oShowObj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "638c19c8-91c3-4020-96da-3cbd2a160909",
+            "Value": {
+                "id": "4fe37469-dc46-49b2-b5ee-d8bd276ced50",
+                "resourcePath": "sprites\\floor_boss1\\floor_boss1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -475,6 +499,14 @@
             "Value": {
                 "id": "3e122259-8247-4dcd-a162-682e218c4321",
                 "resourcePath": "sprites\\sEnemyAttackLeft\\sEnemyAttackLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71c52b9b-76e8-4f98-a8e7-8dc774964bf4",
+            "Value": {
+                "id": "a5bd154b-51d6-43ab-8e35-fb2bc5954a4f",
+                "resourcePath": "sprites\\grass_boss1\\grass_boss1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -567,6 +599,14 @@
             }
         },
         {
+            "Key": "829b0b8a-c7be-4074-b480-7d7c3e89cdc2",
+            "Value": {
+                "id": "3f0af30e-943a-4fbf-b617-6fd3d069c7c2",
+                "resourcePath": "sprites\\bg_boss_1\\bg_boss_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "837a1e74-ea94-4632-92cf-17fbe96dd17b",
             "Value": {
                 "id": "04ee93b2-70d9-4aec-8f3b-40a3e5b310d3",
@@ -580,6 +620,14 @@
                 "id": "4373fd96-2430-4e00-9698-c6fbacb1c80b",
                 "resourcePath": "rooms\\roomMontanha\\roomMontanha.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "85e37e66-e816-4b5a-8105-da01126b2006",
+            "Value": {
+                "id": "3c818732-cf13-46df-8859-4a49b86d03d5",
+                "resourcePath": "sprites\\walls_boss1\\walls_boss1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -783,6 +831,14 @@
             }
         },
         {
+            "Key": "b11f74d3-3d23-4b97-95cf-078dc81c9a0c",
+            "Value": {
+                "id": "e2d516cc-3ae7-4033-a045-12a3aecd7203",
+                "resourcePath": "sprites\\flower\\flower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b18bcf8d-89c0-4461-a3c1-68c8515305c1",
             "Value": {
                 "id": "52eea1b5-1de3-4eb6-9c43-66ecd8035151",
@@ -839,10 +895,26 @@
             }
         },
         {
+            "Key": "c5fa1c1e-3d12-4480-9bed-531ac84b7f88",
+            "Value": {
+                "id": "d1594af8-b854-43c2-a194-e7dd31181cbe",
+                "resourcePath": "sprites\\vines_boss1\\vines_boss1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca838a97-8d98-487f-a2a3-4f8d58ef16ed",
             "Value": {
                 "id": "25060ff8-8e50-4e18-abbd-80149c2e6b8d",
                 "resourcePath": "objects\\oMontanha\\oMontanha.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb9055e0-c163-4680-8fbe-812590302b4c",
+            "Value": {
+                "id": "b80914db-efac-4963-ba1a-2ad5b4c87809",
+                "resourcePath": "objects\\oFlower\\oFlower.yy",
                 "resourceType": "GMObject"
             }
         },
