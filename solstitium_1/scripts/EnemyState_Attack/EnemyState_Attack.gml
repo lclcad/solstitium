@@ -60,7 +60,9 @@ if(hits > 0)
 			ds_list_add(hitByAttack, hitID);
 			with(hitID)
 			{
-				state = PLAYERSTATE.HIT;
+				if(state != PLAYERSTATE.HIT){
+					state = PLAYERSTATE.HIT;
+				}
 			}
 		}
 	}

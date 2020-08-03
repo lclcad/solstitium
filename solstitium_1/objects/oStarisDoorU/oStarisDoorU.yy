@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oStarisDoorU",
     "eventList": [
-        {
-            "id": "a7355305-7f48-4839-babb-798f727c7270",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ea055acf-7f57-4be7-86c2-11a0cb2ab9bb"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

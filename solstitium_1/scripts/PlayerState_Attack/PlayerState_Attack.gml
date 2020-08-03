@@ -1,3 +1,5 @@
+in_combat = true;
+
 current_player_attack_damage = 1;//dá a abertura pra botar outras armas e tal
 
 if(mouseX == 0 && mouseY == 0){//confere se há uma direção do ataque
@@ -132,4 +134,5 @@ if(animation_end())//checa se o ataque terminou
 	mouseX = 0;
 	mouseY = 0;
 	state = PLAYERSTATE.IDLE;
+	alarm[0] = 300;
 }

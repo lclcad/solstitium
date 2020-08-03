@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oStairsHBR",
     "eventList": [
-        {
-            "id": "816d54dc-1947-44ee-bdf8-3f72fc879bc8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e22bcf82-f039-45bc-b081-7c05d5d13da4"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

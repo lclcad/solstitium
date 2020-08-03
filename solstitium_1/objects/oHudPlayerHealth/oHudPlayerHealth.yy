@@ -1,18 +1,28 @@
 {
-    "id": "a538c36a-e315-4acd-8ac5-75d1f2f7ec31",
+    "id": "ff2c9a5d-87f7-4263-bfea-3fdfe5a00b3f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oStairs",
+    "name": "oHudPlayerHealth",
     "eventList": [
         {
-            "id": "d43b2403-4252-4667-9ecd-ddc345aabb20",
+            "id": "9f745e04-c674-4ce4-a592-3aed5ff6b0da",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "ff2c9a5d-87f7-4263-bfea-3fdfe5a00b3f"
+        },
+        {
+            "id": "ebf156a1-53bc-434b-b5ac-eb70a4bdcf46",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a538c36a-e315-4acd-8ac5-75d1f2f7ec31"
+            "m_owner": "ff2c9a5d-87f7-4263-bfea-3fdfe5a00b3f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ad725f68-aaa6-47b5-abbe-90c3ee67ef0f",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

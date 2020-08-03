@@ -1,4 +1,4 @@
-hp = 10;
+hp = 3;
 spd = 2;
 dash_spd = spd * 6;
 mouseX = 0;
@@ -9,6 +9,9 @@ collision = oParentCollision;
 targetEnter = noone;
 current_dialog = noone;
 current_player_attack_damage = 1;
+dmg_recieved = false;
+in_combat = false;
+last_room = room;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";
@@ -20,7 +23,8 @@ enum PLAYERSTATE
 	ATTACK,	//ataque
 	DASH,   //dash
 	DIALOGUE,//dialogo
-	HIT     //acertadp por um ataque
+	HIT,     //acertadp por um ataque
+	DEAD
 }
 
 //estado do player como IDLE
