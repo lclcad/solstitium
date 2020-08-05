@@ -215,11 +215,27 @@
             }
         },
         {
+            "Key": "2aafa326-48d1-48eb-917b-f7c261b2e859",
+            "Value": {
+                "id": "1c77a561-9cdf-4b25-a159-2aa195de91b9",
+                "resourcePath": "sprites\\sBoss1\\sBoss1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f14a4f5-9e4f-4c4b-a057-50953b64175b",
             "Value": {
                 "id": "5dacb6d3-37cb-42b5-b56a-dacb8ca4ce94",
                 "resourcePath": "views\\2f14a4f5-9e4f-4c4b-a057-50953b64175b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2feb714b-d7a0-43b9-ab57-fd6547cd87aa",
+            "Value": {
+                "id": "35e43f31-6ed6-4dac-9d2f-eeaf3f7a2ebc",
+                "resourcePath": "sprites\\sFloorBoss1Indv\\sFloorBoss1Indv.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -367,10 +383,26 @@
             }
         },
         {
+            "Key": "59c2f76e-96b9-4e7c-9baf-ffd26d0c64e5",
+            "Value": {
+                "id": "58ce187d-ae7b-47b7-9203-065a60659ca1",
+                "resourcePath": "objects\\oBoss1\\oBoss1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b2e8fcd-ef39-424d-a3ce-3acd35aa37b1",
             "Value": {
                 "id": "d53872fc-2e0e-4352-bc4f-a4722438de85",
                 "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e7c625c-6074-49b8-b3fc-93494e0c4242",
+            "Value": {
+                "id": "49bbd198-70f8-49ef-8f3b-af1bd028eadf",
+                "resourcePath": "objects\\oFloor\\oFloor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -426,7 +458,7 @@
             "Key": "638c19c8-91c3-4020-96da-3cbd2a160909",
             "Value": {
                 "id": "4fe37469-dc46-49b2-b5ee-d8bd276ced50",
-                "resourcePath": "sprites\\floor_boss1\\floor_boss1.yy",
+                "resourcePath": "sprites\\sFloorBoss1\\sFloorBoss1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -514,7 +546,7 @@
             "Key": "71c52b9b-76e8-4f98-a8e7-8dc774964bf4",
             "Value": {
                 "id": "a5bd154b-51d6-43ab-8e35-fb2bc5954a4f",
-                "resourcePath": "sprites\\grass_boss1\\grass_boss1.yy",
+                "resourcePath": "sprites\\sGrassBoss1\\sGrassBoss1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -607,10 +639,18 @@
             }
         },
         {
+            "Key": "8256cf7c-d937-4a22-a10b-f9c5aca95779",
+            "Value": {
+                "id": "2693ec3e-c0c2-4968-a3bc-f11e42b0c13f",
+                "resourcePath": "views\\8256cf7c-d937-4a22-a10b-f9c5aca95779.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "829b0b8a-c7be-4074-b480-7d7c3e89cdc2",
             "Value": {
                 "id": "3f0af30e-943a-4fbf-b617-6fd3d069c7c2",
-                "resourcePath": "sprites\\bg_boss_1\\bg_boss_1.yy",
+                "resourcePath": "sprites\\sBGBoss\\sBGBoss.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -634,7 +674,7 @@
             "Key": "85e37e66-e816-4b5a-8105-da01126b2006",
             "Value": {
                 "id": "3c818732-cf13-46df-8859-4a49b86d03d5",
-                "resourcePath": "sprites\\walls_boss1\\walls_boss1.yy",
+                "resourcePath": "sprites\\sWallsBoss1\\sWallsBoss1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -858,7 +898,7 @@
             "Key": "b11f74d3-3d23-4b97-95cf-078dc81c9a0c",
             "Value": {
                 "id": "e2d516cc-3ae7-4033-a045-12a3aecd7203",
-                "resourcePath": "sprites\\flower\\flower.yy",
+                "resourcePath": "sprites\\sFlower\\sFlower.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -922,7 +962,7 @@
             "Key": "c5fa1c1e-3d12-4480-9bed-531ac84b7f88",
             "Value": {
                 "id": "d1594af8-b854-43c2-a194-e7dd31181cbe",
-                "resourcePath": "sprites\\vines_boss1\\vines_boss1.yy",
+                "resourcePath": "sprites\\sVines\\sVines.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1012,6 +1052,14 @@
                 "id": "352092bc-330f-47c7-bf58-07c44cf44806",
                 "resourcePath": "objects\\oDataCarrier\\oDataCarrier.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0a6a098-048a-4e52-8985-b523b6b59b7e",
+            "Value": {
+                "id": "373a08f5-58dc-43f5-a867-7d5ffda25b41",
+                "resourcePath": "views\\e0a6a098-048a-4e52-8985-b523b6b59b7e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1119,6 +1167,14 @@
             }
         },
         {
+            "Key": "fe2f8da7-939c-44b0-a0b9-ae744fb0c2c1",
+            "Value": {
+                "id": "4e894140-0a19-4d66-bd93-469fbc336423",
+                "resourcePath": "scripts\\PlantStateChooseAttack\\PlantStateChooseAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fe50dd7f-d2dd-4ba6-b9e6-8ef5d165d692",
             "Value": {
                 "id": "3d5ceb6b-1cc1-4006-9536-fb36020a43f8",
@@ -1142,11 +1198,12 @@
         "2209b8d3-a127-4e89-aaf0-9ea4524368ee",
         "6bcd0d23-16c7-4575-bab0-9acc6c08bdc7",
         "9f82b21c-c250-47cc-98c3-ae219ca6246a",
-        "93231e4e-ebab-4a5a-ad81-f5e274c10e9a",
+        "fe2f8da7-939c-44b0-a0b9-ae744fb0c2c1",
         "e25baac1-d2a7-4e00-89ce-37aa5d4e7f56",
         "4e2404b8-4db3-442b-a1c7-0f977a2aa7e3",
         "0cedb9f8-3f1f-4511-aeb3-0bfceb47b654",
         "57d63d25-6b98-4f2e-b639-c06becc6c36a",
+        "93231e4e-ebab-4a5a-ad81-f5e274c10e9a",
         "a62f5e2c-3661-4b9e-a1fd-11843a08fc56"
     ],
     "tutorial": ""

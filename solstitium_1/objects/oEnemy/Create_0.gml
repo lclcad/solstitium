@@ -1,6 +1,8 @@
 collidable = false;
 
 hp = 2;
+is_hit = false;
+is_hitable = true;
 attack_threshold = 40;
 hitByAttack = ds_list_create();
 can_enemy_attack = false;

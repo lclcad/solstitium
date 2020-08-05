@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "oFlower",
     "eventList": [
-        
+        {
+            "id": "6d4c377a-de09-4be2-ae48-1174bd5e905c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "cb9055e0-c163-4680-8fbe-812590302b4c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "7fc59295-b405-4dbd-9901-6cacbc803ffc",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -25,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "b11f74d3-3d23-4b97-95cf-078dc81c9a0c",
-    "visible": true
+    "visible": false
 }

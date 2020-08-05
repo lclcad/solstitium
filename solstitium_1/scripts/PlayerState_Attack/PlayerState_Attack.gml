@@ -1,4 +1,6 @@
 in_combat = true;
+visible = true;
+depth -= 1;
 
 current_player_attack_damage = 1;//dá a abertura pra botar outras armas e tal
 
@@ -118,7 +120,7 @@ with(atk_hitbox){
 				ds_list_add(hitByAttack, hitID);
 				with(hitID)
 				{
-					EnemyHit(oPlayer.current_player_attack_damage);
+					if(is_hitable){EnemyHit(oPlayer.current_player_attack_damage);}
 				}
 			}
 		}
@@ -135,4 +137,6 @@ if(animation_end())//checa se o ataque terminou
 	mouseY = 0;
 	state = PLAYERSTATE.IDLE;
 	alarm[0] = 300;
+	visible = false;
+	depth += 1;
 }
