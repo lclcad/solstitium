@@ -64,13 +64,9 @@ else{
 	else{y += moveY;}//movimento
 
 //cria o efeito de velocidade
-if(image_index mod 120){
+if(image_index mod 2 == 0){
 	var dasheffect = instance_create_depth(x, y, depth + 1, oPlayerDashEffect);
 	dasheffect.sprite_index = sprite_index;
 }	
-	
-	
-	
-
 
 if(animation_end()){state = PLAYERSTATE.IDLE; dash_cooldown = 0; mouseX = 0; mouseY = 0;}

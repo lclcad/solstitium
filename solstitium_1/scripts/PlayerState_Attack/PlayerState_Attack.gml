@@ -136,7 +136,7 @@ if(animation_end())//checa se o ataque terminou
 	mouseX = 0;
 	mouseY = 0;
 	state = PLAYERSTATE.IDLE;
-	alarm[0] = 300;
+	alarm[1] = 300;
 	visible = false;
 	depth += 1;
 }

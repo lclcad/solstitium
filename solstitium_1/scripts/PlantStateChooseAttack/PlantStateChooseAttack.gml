@@ -1,18 +1,21 @@
-if(!has_attack_chosen){//verifica se um ataque foi escolhido	
-	randomize();//randomiza a escolha da funcao choose
-	next_atk = choose("fire", "spike", "poison", "bash");//escolhe um ataque
+if(!has_attack_chosen){//verifica se um ataque foi escolhido
+
+	var rand_atk = irandom(2);
+	next_atk = attacks[rand_atk];//escolhe um ataque
 	while(next_atk == last_attack){//verifica se o ataque nao esta sendo repitido
-		next_atk = choose("fire", "spike", "poison", "bash");
+		rand_atk = irandom(2);
+		next_atk = attacks[rand_atk];
 	}
 	switch(next_atk){//determina a cor dos olhos correspondente com o ataque
-		case "fire": correspondant_color = 3; break;
-		case "spike": correspondant_color = 1; break;
-		case "poison": correspondant_color = 2; break;
-		case "bash": correspondant_color = 4; break;
+		case PLANTSTATE.ATKSPIKE: correspondant_color = 1; break;
+		case PLANTSTATE.ATKPOISON: correspondant_color = 2; break;
+		//case PLANTSTATE.ATKFIRE: correspondant_color = 3; break;
+		case PLANTSTATE.ATKBASH: correspondant_color = 4; break;
 	}
+	color_array[0] = 0;
 	color_array[10] = correspondant_color; //seta a ultima cor dos olhos
 
-	for(i=9; i>=0; i--){//seta as outras cores, fazendo verificações para que nao se repitam as mesmas cores
+	for(i=9; i>=1; i--){//seta as outras cores, fazendo verificações para que nao se repitam as mesmas cores
 		save_color1 = color1;
 		color1 = color2;
 		var rand_index = irandom(ds_list_size(color_list)-1);

@@ -1,7 +1,8 @@
-switch(next_atk){
-	case "fire": state = PLANTSTATE.ATKFIRE; break;
-	case "spike": state = PLANTSTATE.ATKSPIKE; break;
-	case "poison": state = PLANTSTATE.ATKPOISON; break;
-	case "bash": state = PLANTSTATE.ATKBASH; break;
-}
+/// @description decide o ataque
+cur_color = -1;
+
+state = next_atk;
+
+last_attack = next_atk;
+
 has_attack_chosen = false;

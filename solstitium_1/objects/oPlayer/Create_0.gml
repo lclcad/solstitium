@@ -1,4 +1,4 @@
-hp = 3;
+hp = 10;
 spd = 2;
 dash_spd = spd * 6;
 mouseX = 0;
@@ -9,9 +9,10 @@ collision = oParentCollision;
 targetEnter = noone;
 current_dialog = noone;
 current_player_attack_damage = 1;
-dmg_recieved = false;
 in_combat = false;
 last_room = room;
+flash = 0;
+is_hitable = true;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";

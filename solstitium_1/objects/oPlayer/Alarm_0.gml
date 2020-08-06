@@ -1,2 +1,2 @@
-/// @description combat timer
-in_combat = false;
+/// @description hit timer
+is_hitable = true;
