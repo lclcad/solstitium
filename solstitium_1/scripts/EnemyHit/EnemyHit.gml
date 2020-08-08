@@ -1,5 +1,5 @@
 var dano = argument0;
-
+show_debug_message("chegou aqui");
 hp -= dano;
 
 is_hit = true;

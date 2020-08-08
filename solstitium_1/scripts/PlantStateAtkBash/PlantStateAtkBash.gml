@@ -17,7 +17,6 @@ else{
 				final_point = room_height;
 				x = oPlayer.x-sprite_width/2;
 				y = 0-sprite_height;
-				mask_index = sBossBashMaskUp;
 				break;
 			case 1:
 				bash_rot = 270;
@@ -26,7 +25,6 @@ else{
 				final_point = 0;
 				x = room_width+sprite_height;
 				y = oPlayer.y-sprite_width/2;
-				mask_index = sBossBashMaskRight;
 				break;
 			case 2:
 				bash_rot = 180;
@@ -35,7 +33,6 @@ else{
 				final_point = 0;
 				x = oPlayer.x+sprite_width/2;
 				y = room_height+sprite_width;
-				mask_index = sBossBashMaskDown;
 				break;
 			case 3:
 				bash_rot = 90;
@@ -44,13 +41,17 @@ else{
 				final_point = room_width;
 				x = 0-sprite_height;
 				y = oPlayer.y+sprite_width/2;
-				mask_index = sBossBashMaskLeft;
 				break;
 		}	
 	}
 	else if(!finished_bashing){
 		x += x_spd;
 		y += y_spd;
+		if(place_meeting(x, y, oPlayer)){
+			with(oPlayer){
+				PlayerHit();
+			}
+		}
 		switch(bash_start_side){
 			case 0:
 				if(y >= room_height){
@@ -96,14 +97,14 @@ else{
 	}
 	else if(returning){
 		depth = 500;
-		if(y != start_y_pos){
+		if(y != start_y_pos+75){
 			is_hitable = true;
 			x = start_x_pos;
-			var go_to_y = lerp(y, start_y_pos, 0.06);
-			if(round(go_to_y) == start_y_pos){go_to_y = start_y_pos}
+			var go_to_y = lerp(y, start_y_pos+75, 0.06);
+			if(round(go_to_y) == start_y_pos+75){go_to_y = start_y_pos+75}
 			y = go_to_y;
 			show_debug_message(y);
-			show_debug_message(start_y_pos);
+			show_debug_message(start_y_pos+75);
 		}
 		else{
 			show_debug_message(alarm[1]);

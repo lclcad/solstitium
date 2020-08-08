@@ -9,7 +9,7 @@ if(!has_attack_chosen){//verifica se um ataque foi escolhido
 	switch(next_atk){//determina a cor dos olhos correspondente com o ataque
 		case PLANTSTATE.ATKSPIKE: correspondant_color = 1; break;
 		case PLANTSTATE.ATKPOISON: correspondant_color = 2; break;
-		//case PLANTSTATE.ATKFIRE: correspondant_color = 3; break;
+		case PLANTSTATE.ATKFIRE: correspondant_color = 3; break;
 		case PLANTSTATE.ATKBASH: correspondant_color = 4; break;
 	}
 	color_array[0] = 0;

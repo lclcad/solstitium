@@ -21,9 +21,7 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				y_offset = cam_height/2;
 			}
 			with(dialogue_box){
-				text[0] = "meia noite, horario oficial do oleo de macaco";
-				text[1] = "eu sou ednaldo, pereira, moro no distrito de cachoreia dos santos, estado da paraiba, tenho mais de um cd gravado, tenho clips gravados";
-				text[2] = "teixeira vai tomanocu seu gostoso";
+				text[0] = "Ha um inimigo perigoso a frente...";
 				event_perform(ev_other, ev_user1);
 			}
 		}

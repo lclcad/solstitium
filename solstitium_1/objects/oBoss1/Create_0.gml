@@ -2,7 +2,7 @@
 hp = 60;
 collidable = false;
 is_hit = false;
-is_hitable=false;
+is_hitable = false;
 
 //variaveis para a escolha do ataque
 attacks = [PLANTSTATE.ATKSPIKE, /*PLANTSTATE.ATKPOISON,*/ PLANTSTATE.ATKFIRE, PLANTSTATE.ATKBASH];

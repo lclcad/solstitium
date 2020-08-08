@@ -18,3 +18,9 @@ switch(state){
 	case PLANTSTATE.ATKFIRE: draw_sprite_ext(sBoss1, 3, x, y, 1, 1, 0, c_white, 1); break;
 	case PLANTSTATE.ATKBASH: draw_sprite_ext(sBoss1, 4, x, y, 1, 1, bash_rot, c_white, 1); break;
 }
+
+if(is_hit){
+	gpu_set_fog(true, $10B114, 0, 0);
+	draw_self();
+	gpu_set_fog(false, $10B114, 0, 0);
+}

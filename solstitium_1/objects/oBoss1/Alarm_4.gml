@@ -1,4 +1,7 @@
 /// @description volta para escolher o ataque
+x = start_x_pos;
+y = start_y_pos;
+
 state = PLANTSTATE.CHOSEATTACK;
 is_hitable = false;
 with(oFlower){
