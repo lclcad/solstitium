@@ -1,0 +1,1 @@
+show_moon_cam = noone;
