@@ -10,7 +10,12 @@ function EnemyHit(argument0) {
 	if(hp <= 0)
 	{
 		hp = 0;
-		state = ENEMYSTATE.DEAD;
+		state = PLANTSTATE.INACTIVE;
+		
+		if (player.key_count <= 0) player.key_count += 1;
+		
+		show_debug_message("player key count caralho: " + string(player.key_count))
+		instance_destroy(oPassage);
 	}
 
 

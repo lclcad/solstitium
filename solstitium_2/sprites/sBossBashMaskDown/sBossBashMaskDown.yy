@@ -45,7 +45,7 @@
             {"id":"42d8982e-052f-43b6-8cd2-94daceb8cede","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a09e56f3-5218-4c1e-afb5-e4e650644038","path":"sprites/sBossBashMaskDown/sBossBashMaskDown.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,

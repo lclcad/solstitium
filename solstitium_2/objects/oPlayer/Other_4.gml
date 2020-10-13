@@ -1,5 +1,6 @@
 if(instance_exists(oDataCarrier)){
 	hp = oDataCarrier.hp;
+	key_count = oDataCarrier.key_count;
 	dash_cooldown = oDataCarrier.dash_cooldown;
 	targetEnter = oDataCarrier.targetEnter;
 	last_pressed = oDataCarrier.last_pressed;

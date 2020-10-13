@@ -6,6 +6,9 @@ mouseY = 0;
 dash_cooldown = 0;
 atk_hitbox = noone;
 collision = oParentCollision;
+
+key_hb = oKeyHB;
+
 targetEnter = noone;
 current_dialog = noone;
 current_player_attack_damage = 1;
@@ -13,6 +16,7 @@ in_combat = false;
 last_room = room;
 flash = 0;
 is_hitable = true;
+key_count = 0;
 
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";
@@ -24,7 +28,7 @@ enum PLAYERSTATE
 	ATTACK,	//ataque
 	DASH,   //dash
 	DIALOGUE,//dialogo
-	HIT,     //acertadp por um ataque
+	HIT,     //acertado por um ataque
 	DEAD
 }
 

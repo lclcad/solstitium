@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Boss1",
-    "path": "folders/Objects/Boss1.yy",
+    "path": "folders/Objects/Bosses/Boss1.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBoss1",

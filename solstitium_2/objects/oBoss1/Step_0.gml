@@ -1,5 +1,5 @@
 switch(state){
-	case PLANTSTATE.INACTIVE: break;
+	case PLANTSTATE.INACTIVE: state = PLANTSTATE.INACTIVE; break;
 	case PLANTSTATE.CHOSEATTACK: PlantStateChooseAttack(); break;
 	case PLANTSTATE.ATKSPIKE: PlantStateAtkSpike(); break;
 	case PLANTSTATE.ATKPOISON: break;

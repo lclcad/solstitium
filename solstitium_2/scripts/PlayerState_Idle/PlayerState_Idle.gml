@@ -54,8 +54,7 @@ function PlayerState_Idle() {
 
 	if(key_dash && dash_cooldown == 120) state = PLAYERSTATE.DASH; //checa se houve dash
 	if(key_attack) state = PLAYERSTATE.ATTACK; //checa se houve ataque
-
-
-
-
+	
+	//verifica colisão com o HB da chave e a tecla "E" e executa o script de chave
+	if(place_meeting(x, y, key_hb) && keyboard_check(ord("E"))) PlayerPickKey();
 }

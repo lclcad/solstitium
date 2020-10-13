@@ -7,3 +7,4 @@ oDataCarrier.hp = hp;
 oDataCarrier.dash_cooldown = dash_cooldown;
 oDataCarrier.targetEnter = targetEnter;
 oDataCarrier.last_pressed = last_pressed;
+oDataCarrier.key_count = key_count;

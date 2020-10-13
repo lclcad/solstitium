@@ -1,8 +1,9 @@
 //variaveis padrao
-hp = 60;
+hp = 2;
 collidable = false;
 is_hit = false;
 is_hitable = false;
+player = oPlayer;
 
 //variaveis para a escolha do ataque
 attacks = [PLANTSTATE.ATKSPIKE, /*PLANTSTATE.ATKPOISON,*/ PLANTSTATE.ATKFIRE, PLANTSTATE.ATKBASH];
@@ -27,6 +28,7 @@ ds_list_add(color_list, 1, 2, 3, 4);
 
 start_x_pos = x;
 start_y_pos = y;
+
 
 
 //enum dos estados do boss
