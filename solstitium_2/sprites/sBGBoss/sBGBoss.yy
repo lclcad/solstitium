@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"sBGBoss","path":"sprites/sBGBoss/sBGBoss.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "sBGBoss",
     "tags": [],
     "resourceType": "GMSequence",
   },

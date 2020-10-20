@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss1",
-    "path": "folders/Objects/Bosses/Boss1.yy",
+    "name": "Floors",
+    "path": "folders/Objects/Bosses/Floors.yy",
   },
   "resourceVersion": "1.0",
   "name": "oFloor",

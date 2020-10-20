@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"sAnciao","path":"sprites/sAnciao/sAnciao.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "sAnciao",
     "tags": [],
     "resourceType": "GMSequence",
   },

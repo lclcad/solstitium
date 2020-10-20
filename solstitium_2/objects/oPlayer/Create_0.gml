@@ -18,6 +18,9 @@ flash = 0;
 is_hitable = true;
 key_count = 0;
 
+//runas
+rune_count = 0;
+
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";
 

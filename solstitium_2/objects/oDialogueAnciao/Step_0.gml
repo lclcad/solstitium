@@ -21,10 +21,10 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				y_offset = cam_height/2;
 			}
 			with(dialogue_box){
-				text[0] = "Bom dia, viajante. Essas terras sao perigosas para alguem como voce...";
-				text[1] = "Se quiser passar por essa masmorra vivo, nao deixe de atacar no momento certo";
-				text[2] = "Voce sabia, jovem? Alguns dizem que a deusa da lua capturada ha seculos ainda vive";
-				text[3] = "E... Quem a capturou deixou alguns tracos nessa masmorra.";
+				text[0] = "Bom dia, viajante. Essas terras são perigosas para alguém como você...";
+				text[1] = "Se quiser passar por essa masmorra vivo, não deixe de atacar no momento certo";
+				text[2] = "Você sabia, jovem? Alguns dizem que a deusa da lua capturada ha séculos ainda vive";
+				text[3] = "E... Quem a capturou deixou traços nessa masmorra.";
 				text[4] = "Ah! E nunca se esqueca disso:";
 				text[5] = "Tudo que foi uma vez quebrado pode ser reconstruido";
 				event_perform(ev_other, ev_user1);

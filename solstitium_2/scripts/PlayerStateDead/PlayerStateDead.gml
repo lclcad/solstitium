@@ -5,7 +5,7 @@ function PlayerStateDead() {
 	}
 	if(fade.current_alpha == 1){
 		room_goto_previous();
-		hp = 3;
+		hp = 3;	
 	}
 
 

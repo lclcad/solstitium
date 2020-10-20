@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFloorBoss2",
-    "path": "sprites/sFloorBoss2/sFloorBoss2.yy",
+    "name": "sFloorBoss3",
+    "path": "sprites/sFloorBoss3/sFloorBoss3.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss2",
-    "path": "folders/Objects/Bosses/Boss2.yy",
+    "name": "Floors",
+    "path": "folders/Objects/Bosses/Floors.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBoss2Floor",

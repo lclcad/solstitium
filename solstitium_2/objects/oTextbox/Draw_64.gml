@@ -2,10 +2,12 @@ draw_sprite(box, 0, box_x, box_y);
 text_lenght = string_length(text[page]);
 alpha_spd = 1/text_lenght;
 
+//conta as letras em uma unica caixa de texto, fazendo aparecer cada letra e carregar
 if(text_counter < text_lenght){
 	draw_sprite_ext(sDialogueLoading, 0, load_x, load_y, 1, 1, 0, c_white, current_alpha);
 	current_alpha += alpha_spd;
 	text_counter++;
+	
 	if(mouse_check_button_pressed(mb_left) && !page_change){
 		current_alpha = 1;
 		text_counter = text_lenght;
