@@ -25,8 +25,11 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[1] = "Se quiser passar por essa masmorra vivo, não deixe de atacar no momento certo";
 				text[2] = "Você sabia, jovem? Alguns dizem que a deusa da lua capturada ha séculos ainda vive";
 				text[3] = "E... Quem a capturou deixou traços nessa masmorra.";
-				text[4] = "Ah! E nunca se esqueca disso:";
-				text[5] = "Tudo que foi uma vez quebrado pode ser reconstruido";
+				text[4] = "Deixa eu te ensinar como atacar esse inimigo depois dessa porta";
+				text[5] = "Para atacar, clique na direção do seu inimigo";
+				text[6] = "Para correr, aperte shift";
+				text[7] = "Essa porta na escada está trancada. Para abrí-la você deve usar a chave";
+				text[8] = "Para pegá-la, aperte E";
 				event_perform(ev_other, ev_user1);
 			}
 		}

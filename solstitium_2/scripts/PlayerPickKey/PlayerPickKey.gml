@@ -2,7 +2,12 @@
 function PlayerPickKey(){
 	key_count += 1;
 	show_debug_message("chave pega");
-	if(instance_exists(oKeyIndicator)) instance_destroy(oKeyIndicator);
-	if(instance_exists(oKey)) instance_destroy(oKey);
-	if(instance_exists(oKeyHB)) instance_destroy(oKeyHB);
+	
+	with(oKey)
+	{
+		if(instance_exists(oKeyHB)) instance_destroy(oKeyHB);
+		if(instance_exists(oKeyIndicator)) instance_destroy(oKeyIndicator);
+		
+		can_fade_out = true;
+	}
 }

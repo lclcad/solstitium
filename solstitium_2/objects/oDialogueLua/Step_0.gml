@@ -28,8 +28,8 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[4] = "Se algum de vocês ainda se lembra do círculo branco nas noites escuras";
 				text[5] = "Precisam conseguir as quatro runas de rudal";
 				text[6] = "Os guardiões dessas runas estão em quatro lugares";
-				text[7] = "Uma está no templo de Raulia, outra nas areias do deserto, outra na floresta do norte...";
-				text[8] = "E outra sou eu";
+				text[7] = "Uma está no templo de Raulia, outra nas areias do deserto de Ingiyab, outra na floresta do norte...";
+				text[8] = "E outra está bem na sua frente";
 				event_perform(ev_other, ev_user1);
 			}
 			
@@ -42,7 +42,10 @@ else{ //quando nao estiver colidindo com o jogador
 			diag_indicator.image_alpha -= diag_indicator.img_spd*1.5;
 		}
 		if(diag_indicator.image_alpha == 0){ //quando o efeito de fade out acabar destroi a instancia do indicador
-			instance_destroy(lua_1);
+			with(lua)
+			{
+				instance_destroy();
+			}
 			instance_destroy(diag_indicator);
 		}
 	}

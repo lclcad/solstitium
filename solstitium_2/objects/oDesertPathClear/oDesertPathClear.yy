@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sKey",
-    "path": "sprites/sKey/sKey.yy",
+    "name": "sDesertPathClear",
+    "path": "sprites/sDesertPathClear/sDesertPathClear.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oKey","path":"objects/oKey/oKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oKey","path":"objects/oKey/oKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Key",
-    "path": "folders/Objects/Key.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oKey",
+  "name": "oDesertPathClear",
   "tags": [],
   "resourceType": "GMObject",
 }

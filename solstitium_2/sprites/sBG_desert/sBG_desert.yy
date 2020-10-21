@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e80658fd-3da6-4799-9917-ec572cd3f819","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Desert",
+    "path": "folders/Sprites/Desert.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBG_desert",

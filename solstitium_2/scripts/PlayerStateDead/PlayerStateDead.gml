@@ -7,6 +7,4 @@ function PlayerStateDead() {
 		room_goto_previous();
 		hp = 3;	
 	}
-
-
 }
