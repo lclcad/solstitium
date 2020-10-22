@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 557,
+  "bbox_right": 597,
   "bbox_top": 0,
-  "bbox_bottom": 310,
+  "bbox_bottom": 447,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 558,
-  "height": 311,
+  "width": 598,
+  "height": 448,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","path":"sprites/sWallBoss2/sWallBoss2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","path":"sprites/sWallBoss2/sWallBoss2.yy",},"LayerId":{"name":"7c7d521e-8231-4ac3-b338-d43b83fd80dc","path":"sprites/sWallBoss2/sWallBoss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWallBoss2","path":"sprites/sWallBoss2/sWallBoss2.yy",},"resourceVersion":"1.0","name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"33d5a585-043b-4f59-8394-76303997bd66","path":"sprites/sPierBG/sPierBG.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"33d5a585-043b-4f59-8394-76303997bd66","path":"sprites/sPierBG/sPierBG.yy",},"LayerId":{"name":"fe199b73-0ff2-4672-8f19-ad65a5577a52","path":"sprites/sPierBG/sPierBG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPierBG","path":"sprites/sPierBG/sPierBG.yy",},"resourceVersion":"1.0","name":"33d5a585-043b-4f59-8394-76303997bd66","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sWallBoss2","path":"sprites/sWallBoss2/sWallBoss2.yy",},
+    "spriteId": {"name":"sPierBG","path":"sprites/sPierBG/sPierBG.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"74002dc0-d903-45a5-97e6-f625541eed47","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","path":"sprites/sWallBoss2/sWallBoss2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0a2335e9-8567-47bb-bae7-5b9863fd2d57","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33d5a585-043b-4f59-8394-76303997bd66","path":"sprites/sPierBG/sPierBG.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sWallBoss2","path":"sprites/sWallBoss2/sWallBoss2.yy",},
+    "parent": {"name":"sPierBG","path":"sprites/sPierBG/sPierBG.yy",},
     "resourceVersion": "1.3",
-    "name": "sWallBoss2",
+    "name": "sPierBG",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c7d521e-8231-4ac3-b338-d43b83fd80dc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fe199b73-0ff2-4672-8f19-ad65a5577a52","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss 2",
-    "path": "folders/Sprites/arena boss 2.yy",
+    "name": "arena boss 3",
+    "path": "folders/Sprites/arena boss 3.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sWallBoss2",
+  "name": "sPierBG",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 557,
+  "bbox_right": 92,
   "bbox_top": 0,
-  "bbox_bottom": 310,
+  "bbox_bottom": 44,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 558,
-  "height": 311,
+  "width": 93,
+  "height": 45,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","path":"sprites/sWallBoss2/sWallBoss2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","path":"sprites/sWallBoss2/sWallBoss2.yy",},"LayerId":{"name":"7c7d521e-8231-4ac3-b338-d43b83fd80dc","path":"sprites/sWallBoss2/sWallBoss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWallBoss2","path":"sprites/sWallBoss2/sWallBoss2.yy",},"resourceVersion":"1.0","name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0cc68393-369c-465c-8b4f-e00fae8610d4","path":"sprites/sBoat/sBoat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0cc68393-369c-465c-8b4f-e00fae8610d4","path":"sprites/sBoat/sBoat.yy",},"LayerId":{"name":"77a07d48-3afc-4527-9d5a-b08479238e10","path":"sprites/sBoat/sBoat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoat","path":"sprites/sBoat/sBoat.yy",},"resourceVersion":"1.0","name":"0cc68393-369c-465c-8b4f-e00fae8610d4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sWallBoss2","path":"sprites/sWallBoss2/sWallBoss2.yy",},
+    "spriteId": {"name":"sBoat","path":"sprites/sBoat/sBoat.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"74002dc0-d903-45a5-97e6-f625541eed47","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca895f54-c5e0-49aa-85c3-6c6ef749f5b4","path":"sprites/sWallBoss2/sWallBoss2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b24bec7c-8e53-45a3-a136-03f51d42e9b2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0cc68393-369c-465c-8b4f-e00fae8610d4","path":"sprites/sBoat/sBoat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sWallBoss2","path":"sprites/sWallBoss2/sWallBoss2.yy",},
+    "parent": {"name":"sBoat","path":"sprites/sBoat/sBoat.yy",},
     "resourceVersion": "1.3",
-    "name": "sWallBoss2",
+    "name": "sBoat",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c7d521e-8231-4ac3-b338-d43b83fd80dc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"77a07d48-3afc-4527-9d5a-b08479238e10","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss 2",
-    "path": "folders/Sprites/arena boss 2.yy",
+    "name": "arena boss 3",
+    "path": "folders/Sprites/arena boss 3.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sWallBoss2",
+  "name": "sBoat",
   "tags": [],
   "resourceType": "GMSprite",
 }
