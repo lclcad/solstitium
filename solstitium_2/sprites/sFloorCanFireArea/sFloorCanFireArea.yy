@@ -70,8 +70,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8c7f56bd-31f7-4be1-b6bb-d7a34d5bf3bf","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss1",
-    "path": "folders/Sprites/arena boss1.yy",
+    "name": "boss1",
+    "path": "folders/Sprites/boss1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFloorCanFireArea",

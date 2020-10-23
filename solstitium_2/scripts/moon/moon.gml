@@ -1,6 +1,7 @@
 function moon(){
 	//player terminou o dialogo com a lua
-	key_count += 1;
+	//key_count += 1;
+	rune_count += 1;
 	
 	with(oLua)
 	{

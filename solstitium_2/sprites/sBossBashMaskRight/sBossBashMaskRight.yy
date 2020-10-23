@@ -70,8 +70,8 @@
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c9a408ab-02bd-42a3-927e-c4315e18c87e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss1",
-    "path": "folders/Sprites/arena boss1.yy",
+    "name": "boss1",
+    "path": "folders/Sprites/boss1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBossBashMaskRight",

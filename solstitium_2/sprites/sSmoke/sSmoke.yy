@@ -104,8 +104,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"afa3497f-5c0f-4fba-9554-215d84d43c4c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss1",
-    "path": "folders/Sprites/arena boss1.yy",
+    "name": "boss1",
+    "path": "folders/Sprites/boss1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSmoke",

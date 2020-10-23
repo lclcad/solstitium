@@ -1,7 +1,12 @@
 if(place_meeting(x, y, player) && (player.key_count > 0 && nokey == false)){
 	show_debug_message("COLIDIU COM A PORTA E TEM MAIS DE 0 CHAVES");
 	show_debug_message("numero de chaves colidindo com porta: " + string(player.key_count));
-	player.key_count -= 1;
+	
+	if(!door_has_eaten_key)
+	{
+		player.key_count -= 1;
+		door_has_eaten_key = true;
+	}
 	changing_room = true;
 }
 

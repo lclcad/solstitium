@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c7d521e-8231-4ac3-b338-d43b83fd80dc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss 2",
-    "path": "folders/Sprites/arena boss 2.yy",
+    "name": "boss 2",
+    "path": "folders/Sprites/boss 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "sWallBoss2",

@@ -4,6 +4,7 @@ if(instance_exists(oDataCarrier)){
 	dash_cooldown = oDataCarrier.dash_cooldown;
 	targetEnter = oDataCarrier.targetEnter;
 	last_pressed = oDataCarrier.last_pressed;
+	rune_count = oDataCarrier.rune_count;
 	
 	instance_destroy(oDataCarrier);
 	

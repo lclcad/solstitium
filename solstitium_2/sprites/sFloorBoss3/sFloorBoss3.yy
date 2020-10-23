@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a781289f-0dec-4b6f-9321-435581b89dae","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "arena boss 3",
-    "path": "folders/Sprites/arena boss 3.yy",
+    "name": "boss 3",
+    "path": "folders/Sprites/boss 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFloorBoss3",
