@@ -1,3 +1,6 @@
+
+
+
 draw_sprite(box, 0, box_x, box_y);
 text_lenght = string_length(text[page]);
 alpha_spd = 1/text_lenght;

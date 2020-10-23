@@ -28,7 +28,7 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[4] = "Se algum de vocês ainda se lembra do círculo branco nas noites escuras";
 				text[5] = "Precisam conseguir as quatro runas de rudal";
 				text[6] = "Os guardiões dessas runas estão em quatro lugares";
-				text[7] = "Uma está no templo de Raulia, outra nas areias do deserto de Ingiyab, outra na floresta do norte...";
+				text[7] = "Uma está no templo de Raulia, outra nas areias do deserto de Ingiyab, outra nas florestas frias do norte...";
 				text[8] = "E outra está bem na sua frente";
 				event_perform(ev_other, ev_user1);
 			}

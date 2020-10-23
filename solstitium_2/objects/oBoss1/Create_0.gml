@@ -1,5 +1,5 @@
 //variaveis padrao
-hp = 2;
+hp = 5;
 collidable = false;
 is_hit = false;
 is_hitable = false;
