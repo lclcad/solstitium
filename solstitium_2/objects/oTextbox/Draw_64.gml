@@ -30,5 +30,11 @@ else{
 	}
 }
 var substr = string_copy(text_warped, 1, text_counter);
-var c = text_col;
+
+if(instance_exists(oAutoDialogHolder)){
+	if(oAutoDialogHolder.is_happening) var c = oAutoDialogHolder.holder_color;
+}
+
+else var c = text_col;
+
 draw_text_color(text_x, text_y, substr, c,c,c,c, 1);

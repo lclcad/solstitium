@@ -10,4 +10,4 @@ auto_text_color = c_red;
 
 is_autodialog = true;
 
-dtrigger = oDialog1Trigger.guard_triggered;
+dtrigger = oDialog1Trigger.farmer_triggered;

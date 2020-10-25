@@ -1,4 +1,15 @@
 triggered = false;
 player = oPlayer;
 
-current_speaker = 1;
+guard_triggered = false;
+farmer_triggered = false;
+
+current_speaker = noone;
+
+enum TARGET_SPEAKER
+{
+	GUARD,
+	FARMER
+}
+
+target = TARGET_SPEAKER.GUARD;

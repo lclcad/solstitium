@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sAnciao",
-    "path": "sprites/sAnciao/sAnciao.yy",
+    "name": "sDialogueAnciao",
+    "path": "sprites/sDialogueAnciao/sDialogueAnciao.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oParentDepthObject",
-    "path": "objects/oParentDepthObject/oParentDepthObject.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,7 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oAnciao","path":"objects/oAnciao/oAnciao.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDialogueAnciao","path":"objects/oDialogueAnciao/oDialogueAnciao.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oDialogueAnciao","path":"objects/oDialogueAnciao/oDialogueAnciao.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +31,7 @@
     "path": "folders/Objects/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAnciao",
+  "name": "oDialogueAnciao",
   "tags": [],
   "resourceType": "GMObject",
 }
