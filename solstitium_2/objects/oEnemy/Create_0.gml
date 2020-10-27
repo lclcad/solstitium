@@ -10,6 +10,12 @@ attack_cooldown = 0;
 
 attack_cooldown = 30;
 
+
+//coisas pro escorpiao
+
+enemyWanderDistance = 32;
+//enemySpeed = 0.75;
+
 //enum dos estados do enemy
 enum ENEMYSTATE
 {

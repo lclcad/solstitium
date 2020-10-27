@@ -78,6 +78,4 @@ function EnemyState_Attack() {
 		attack_cooldown = 0;
 		can_enemy_attack = false;
 	}
-
-
 }

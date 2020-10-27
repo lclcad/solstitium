@@ -1,6 +1,3 @@
-
-
-
 draw_sprite(box, 0, box_x, box_y);
 text_lenght = string_length(text[page]);
 alpha_spd = 1/text_lenght;
@@ -31,10 +28,14 @@ else{
 }
 var substr = string_copy(text_warped, 1, text_counter);
 
+show_debug_message("CHEGOU NA PORRA DO IF");
 if(instance_exists(oAutoDialogHolder)){
+	show_debug_message("AUDTODIALOG IS HAPPINIGN:");
+	show_debug_message(string(oAutoDialogHolder.is_happening));
 	if(oAutoDialogHolder.is_happening) var c = oAutoDialogHolder.holder_color;
+	show_debug_message("CHEGOU NA PORRA DO AUTODIALOG HOLDER");	
 }
 
-else var c = text_col;
+else {var c = text_col; show_debug_message("ELSE");}
 
 draw_text_color(text_x, text_y, substr, c,c,c,c, 1);

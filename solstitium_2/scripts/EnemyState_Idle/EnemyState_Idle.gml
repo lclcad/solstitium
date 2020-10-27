@@ -14,7 +14,4 @@ function EnemyState_Idle() {
 	{
 		state = ENEMYSTATE.ATTACK;
 	}
-
-
-
 }

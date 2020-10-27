@@ -7,6 +7,8 @@ dash_cooldown = 0;
 atk_hitbox = noone;
 collision = oParentCollision;
 
+collidable = false;
+
 talking_to_moon = false;
 
 key_hb = oKeyHB;
