@@ -24,7 +24,7 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[0] = "Você consegue me ouvir?";
 				text[1] = "São poucos os sábios que me ouvem";
 				text[2] = "Mas você não é nenhum sábio";
-				text[3] = "Somente derrotou aquela... planta";
+				text[3] = "Somente derrotou aquele... inseto";
 				text[4] = "Se algum de vocês ainda se lembra do círculo branco nas noites escuras";
 				text[5] = "Precisam conseguir as quatro runas de rudal";
 				text[6] = "Os guardiões dessas runas estão em quatro lugares";

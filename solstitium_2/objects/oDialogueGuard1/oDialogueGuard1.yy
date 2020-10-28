@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oAutoDialogNPC1","path":"objects/oAutoDialogNPC1/oAutoDialogNPC1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oAutoDialogNPC1","path":"objects/oAutoDialogNPC1/oAutoDialogNPC1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDialogueGuard1","path":"objects/oDialogueGuard1/oDialogueGuard1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oDialogueGuard1","path":"objects/oDialogueGuard1/oDialogueGuard1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAutoDialogNPC1",
+  "name": "oDialogueGuard1",
   "tags": [],
   "resourceType": "GMObject",
 }

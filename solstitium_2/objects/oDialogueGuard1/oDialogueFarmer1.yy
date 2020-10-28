@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDialogueBoatMan","path":"objects/oDialogueBoatMan/oDialogueBoatMan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oDialogueBoatMan","path":"objects/oDialogueBoatMan/oDialogueBoatMan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDialogueFarmer1","path":"objects/oDialogueFarmer1/oDialogueFarmer1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oDialogueFarmer1","path":"objects/oDialogueFarmer1/oDialogueFarmer1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDialogueBoatMan",
+  "name": "oDialogueFarmer1",
   "tags": [],
   "resourceType": "GMObject",
 }

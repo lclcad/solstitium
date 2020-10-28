@@ -2,10 +2,13 @@ function ScorpioState_Attack(){
 	hitByAttack = ds_list_create();
 	
 	var pl_dir = point_direction(x, y, oPlayer.x, oPlayer.y);
+	var abs_dir = "";
 	
 	//direita
-	if(pl_dir == 360 || pl_dir == 0 || (pl_dir > 270 && pl_dir <= 359) || (pl_dir > 0 && pl_dir <= 90))
+	if((pl_dir == 360 || pl_dir == 0) || (pl_dir > 270 && pl_dir <= 359) || (pl_dir > 0 && pl_dir <= 90))
 	{
+		abs_dir = "d";
+		show_debug_message("ATAQUE DIREITA");
 		if(sprite_index != sEscorpiaoAttack)
 		{
 			sprite_index = sEscorpiaoAttack;
@@ -17,7 +20,9 @@ function ScorpioState_Attack(){
 	//esquerda
 	else if(pl_dir > 90 && pl_dir <= 270)
 	{
-		if(sprite_index != sEscorpiaoAttackLeft)
+		abs_dir = "e";
+		show_debug_message("ATAQUE ESQUERDA");
+		if(sprite_index != sEscorpiaoAttackLeft || sprite_index == sEscorpiaoAttack)
 		{
 			sprite_index = sEscorpiaoAttackLeft;
 			image_index = 0;
@@ -34,7 +39,9 @@ function ScorpioState_Attack(){
 			var hitID = hitByAttackNow[| i]; //acha a entrada da ds list
 			//se nao existe um objeto que nao ta na lista de obj ja atacados(-1 = nao achou)
 			if(ds_list_find_index(hitByAttack, hitID) == -1)
-			{
+			{	
+				show_debug_message("xablau");
+				show_debug_message(string(hitID));
 				ds_list_add(hitByAttack, hitID);
 				with(hitID)
 				{
@@ -51,7 +58,7 @@ function ScorpioState_Attack(){
 	{
 		ds_list_destroy(hitByAttack);
 		mask_index = sEscorpiaoRight;
-		state = SCORPIOSTATE.WANDER;
+		state = SCORPIOSTATE.CHASE;
 		attack_cooldown = 0;
 		can_enemy_attack = false;
 	}

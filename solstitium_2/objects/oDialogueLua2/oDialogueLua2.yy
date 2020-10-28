@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oAutoDialogFarmer1","path":"objects/oAutoDialogFarmer1/oAutoDialogFarmer1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oAutoDialogFarmer1","path":"objects/oAutoDialogFarmer1/oAutoDialogFarmer1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDialogueLua2","path":"objects/oDialogueLua2/oDialogueLua2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oDialogueLua2","path":"objects/oDialogueLua2/oDialogueLua2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "AutoDialog",
-    "path": "folders/Objects/Dialogue/AutoDialog.yy",
+    "name": "Dialogue",
+    "path": "folders/Objects/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAutoDialogFarmer1",
+  "name": "oDialogueLua2",
   "tags": [],
   "resourceType": "GMObject",
 }

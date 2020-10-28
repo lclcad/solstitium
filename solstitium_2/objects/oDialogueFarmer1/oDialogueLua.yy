@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oAutoDialogGuard1","path":"objects/oAutoDialogGuard1/oAutoDialogGuard1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oAutoDialogGuard1","path":"objects/oAutoDialogGuard1/oAutoDialogGuard1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDialogueLua","path":"objects/oDialogueLua/oDialogueLua.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oDialogueLua","path":"objects/oDialogueLua/oDialogueLua.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "AutoDialog",
-    "path": "folders/Objects/Dialogue/AutoDialog.yy",
+    "name": "Dialogue",
+    "path": "folders/Objects/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAutoDialogGuard1",
+  "name": "oDialogueLua",
   "tags": [],
   "resourceType": "GMObject",
 }

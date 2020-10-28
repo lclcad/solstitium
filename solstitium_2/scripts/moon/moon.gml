@@ -6,6 +6,7 @@ function moon(){
 	with(oLua)
 	{
 		if(instance_exists(oDialogueLua)) instance_destroy(oDialogueLua);
+		if(instance_exists(oDialogueLua2)) instance_destroy(oDialogueLua2);
 		can_fade_out = true;
 	}
 	

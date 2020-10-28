@@ -4,7 +4,7 @@ player = oPlayer;
 
 collidable = false;
 
-hp = 2;
+hp = 20;
 is_hit = false;
 is_hitable = true;
 attack_threshold = 40;
@@ -16,7 +16,7 @@ statePrevious = state;
 stateWait = 0;
 stateWaitDuration = 0;
 
-attack_cooldown = 30;
+attack_cooldown = 25;
 
 //aggro
 aggroCheck = 0;
@@ -24,9 +24,10 @@ aggroCheckDuration = 5;
 enemyAggroRadius = 48;
 
 enemyAggroRadius = 150;
-enemyAttackRadius = 40;
+enemyAttackRadius = 35;
 enemyWanderDistance = 32;
-scorpioSpeed = 0.75;
+//SPEED
+scorpioSpeed = 0.9;
 hSpeed = 0;
 vSpeed = 0;
 
@@ -42,7 +43,7 @@ timePassed = 0;
 waitDuration = 60;
 wait = 0;
 
-sprAttack = sEscorpiaoAttack;
+//sprAttack = sEscorpiaoAttack;
 
 //enum dos estados do enemy
 enum SCORPIOSTATE

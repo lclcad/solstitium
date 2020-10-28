@@ -18,4 +18,5 @@ switch(state)
 	case PLAYERSTATE.DASH: PlayerState_Dash(); break;
 	case PLAYERSTATE.DIALOGUE: PlayerState_Dialogue(current_dialog); break;
 	case PLAYERSTATE.DEAD: PlayerStateDead(); break;
+	case PLAYERSTATE.HIT: PlayerHit(); break;
 }
