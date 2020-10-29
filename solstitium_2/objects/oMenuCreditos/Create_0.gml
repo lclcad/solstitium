@@ -5,10 +5,7 @@ button_padding = 8;
 davi_menu_width = display_get_width();
 maria_menu_height = display_get_height();
 
-button[0] = "Jogar";
-button[1] = "Créditos";
-button[2] = "Opções";
-button[3] = "Sair";
+button[0] = "Voltar";
 
 buttons = array_length_1d(button);
 

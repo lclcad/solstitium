@@ -1,6 +1,8 @@
 function ScorpioChase(){
 	sprite_index = sprMove;
 	
+	scorpioSpeed = 0.8 + random_range(0.1, 0.4);
+	
 	if(instance_exists(target))
 	{
 		xTo = target.x;

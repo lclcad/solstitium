@@ -27,7 +27,7 @@ enemyAggroRadius = 150;
 enemyAttackRadius = 35;
 enemyWanderDistance = 32;
 //SPEED
-scorpioSpeed = 0.9;
+scorpioSpeed = 0.8;
 hSpeed = 0;
 vSpeed = 0;
 

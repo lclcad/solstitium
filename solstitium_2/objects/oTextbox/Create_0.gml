@@ -1,3 +1,6 @@
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 box = sDialogueBox;
 
 box_width = sprite_get_width(box);
