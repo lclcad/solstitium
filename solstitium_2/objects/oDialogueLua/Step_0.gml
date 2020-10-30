@@ -26,8 +26,8 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[2] = "Mas você não é nenhum sábio";
 				text[3] = "Somente derrotou aquele... inseto";
 				text[4] = "Se algum de vocês ainda se lembra do círculo branco nas noites escuras";
-				text[5] = "Precisam conseguir as quatro runas de rudal";
-				text[6] = "Os guardiões dessas runas estão em quatro lugares";
+				text[5] = "Precisam conseguir as três runas de Rudal";
+				text[6] = "Os guardiões dessas runas estão em três lugares";
 				text[7] = "Uma está no templo de Raulia, outra nas florestas frias do norte...";
 				text[8] = "E outra está bem na sua frente";
 				event_perform(ev_other, ev_user1);

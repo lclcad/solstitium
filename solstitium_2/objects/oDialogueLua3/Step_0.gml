@@ -21,17 +21,14 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				y_offset = cam_height/2;
 			}
 			with(dialogue_box){
-				text[0] = "Bom dia, viajante. Essas terras são perigosas para alguém como você...";
-				text[1] = "Se quiser passar por essa masmorra vivo, não deixe de atacar no momento certo";
-				text[2] = "Você sabia, jovem? Alguns dizem que a deusa da lua capturada ha séculos ainda vive";
-				text[3] = "E... Quem a capturou deixou traços nessa masmorra.";
-				text[4] = "Deixa eu te ensinar como atacar o inimigo depois dessa porta";
-				text[5] = "Para atacar, clique na direção do seu inimigo";
-				text[6] = "Para correr, aperte shift";
-				text[7] = "Essa porta na escada está trancada. Para abrí-la você deve usar a chave";
-				text[8] = "Para pegá-la, aperte E";
+				text[0] = "Você conseguiu sobreviver ao último guardião?";
+				text[1] = "Eu não estava esperando nada assim";
+				text[2] = "Mas...";
+				text[3] = "Aqui estamos.";
+
 				event_perform(ev_other, ev_user1);
 			}
+			
 		}
 	}
 }
@@ -41,6 +38,10 @@ else{ //quando nao estiver colidindo com o jogador
 			diag_indicator.image_alpha -= diag_indicator.img_spd*1.5;
 		}
 		if(diag_indicator.image_alpha == 0){ //quando o efeito de fade out acabar destroi a instancia do indicador
+			with(lua)
+			{
+				instance_destroy();
+			}
 			instance_destroy(diag_indicator);
 		}
 	}
