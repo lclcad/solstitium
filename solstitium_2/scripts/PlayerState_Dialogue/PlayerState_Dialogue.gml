@@ -5,7 +5,6 @@ function PlayerState_Dialogue(argument0) {
 	if(go_to_next_box && dialogue.page == array_length_1d(dialogue.text) - 1 && dialogue.text_counter == dialogue.text_lenght){ //verifica se esta é a ultima pagina do dialogo
 		state = PLAYERSTATE.IDLE //seta o estado do player como parado
 		instance_destroy(dialogue); //destroi a instancia da caixa de dialogo
-		if(instance_exists(oAutoDialogHolder)) oAutoDialogHolder.is_happening = false;
 		if(talking_to_moon == true) moon();
 	}
 	else if(go_to_next_box && dialogue.text_counter == dialogue.text_lenght){ //verifica se o texto ja terminou de aparecer e passa pra proxima pagina do dialogo
