@@ -1,8 +1,8 @@
 {
   "option_windows_display_name": "Solstitium",
-  "option_windows_executable_name": "${solstitium}",
+  "option_windows_executable_name": "solstitium",
   "option_windows_version": "1.0.0.0",
-  "option_windows_company_info": "Teixeiralinni",
+  "option_windows_company_info": "Lucas e Teixeira",
   "option_windows_product_info": "Solstitium",
   "option_windows_copyright_info": "Solstitium",
   "option_windows_description_info": "Solstitium",
