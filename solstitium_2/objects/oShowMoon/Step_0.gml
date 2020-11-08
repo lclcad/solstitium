@@ -7,7 +7,7 @@ if(place_meeting(x, y, oPlayer)){
 			y_offset = cam_height/6;
 		}
 	}
-	obj_to_moon.can_fade_in = true;
+	//obj_to_moon.can_fade_in = true;
 }
 
 else{

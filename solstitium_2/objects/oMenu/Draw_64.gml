@@ -8,12 +8,19 @@ repeat(buttons)
 	xx = menu_x;
 	yy = menu_y + (button_h	+ button_padding) * i;
 	
+	//cor do retangulo
 	draw_set_color(c_black);
+	
+	//cor do retangulo se estiver selecionado
+	if(menu_index == i) draw_set_color(c_white);
+	
 	draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
 	
+	//cor do texto
 	draw_set_color(c_white);
 	
-	if(menu_index == i) {draw_set_color(c_teal);} 
+	//cor do texto se estiver selecionado
+	if(menu_index == i) draw_set_color(c_black);
 	
 	draw_text(xx + button_w/2, yy + button_h/2, button[i]);
 	i++;

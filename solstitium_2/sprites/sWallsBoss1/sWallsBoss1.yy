@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1bf9050f-c303-4037-ae94-1cb90c3f6f5a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "boss1",
-    "path": "folders/Sprites/boss1.yy",
+    "name": "boss 1",
+    "path": "folders/Sprites/boss 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sWallsBoss1",

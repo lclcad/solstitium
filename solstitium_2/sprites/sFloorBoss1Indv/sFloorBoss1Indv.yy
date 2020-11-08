@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f7f97570-46c1-4102-8649-79a69305f8e0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "boss1",
-    "path": "folders/Sprites/boss1.yy",
+    "name": "boss 1",
+    "path": "folders/Sprites/boss 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFloorBoss1Indv",

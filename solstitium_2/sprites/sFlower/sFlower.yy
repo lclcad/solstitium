@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"743b892f-0b04-4f93-9cb4-e4a16c9155ee","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "boss1",
-    "path": "folders/Sprites/boss1.yy",
+    "name": "boss 1",
+    "path": "folders/Sprites/boss 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFlower",
