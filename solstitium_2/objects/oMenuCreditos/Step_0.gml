@@ -8,3 +8,8 @@ if(menu_index > buttons - 1) {menu_index = 0;}
 if(menu_index != last_item_selected){ }//som
 
 last_item_selected = menu_index;
+
+if(mouse_check_button_pressed(mb_any))
+{
+	room_goto(roomMenu);
+}

@@ -64,6 +64,7 @@
     {"id":{"name":"roomMoon3","path":"rooms/roomMoon3/roomMoon3.yy",},"order":15,},
     {"id":{"name":"oBoss4Floor","path":"objects/oBoss4Floor/oBoss4Floor.yy",},"order":3,},
     {"id":{"name":"oLuaBright","path":"objects/oLuaBright/oLuaBright.yy",},"order":29,},
+    {"id":{"name":"mouse_menu_select","path":"scripts/mouse_menu_select/mouse_menu_select.yy",},"order":9,},
     {"id":{"name":"sCity1","path":"sprites/sCity1/sCity1.yy",},"order":24,},
     {"id":{"name":"Sprite72","path":"sprites/Sprite72/Sprite72.yy",},"order":13,},
     {"id":{"name":"sBoss3Left","path":"sprites/sBoss3Left/sBoss3Left.yy",},"order":5,},
