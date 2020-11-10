@@ -61,7 +61,22 @@ else if(current_runes <= 0 && rune_current_alpha > 0){
 
 for(i = 0; i < current_runes; i++){
 	rune_x_position += rune_x_offset;
-	draw_sprite_ext(sRune, 0, rune_x_position, rune_y_position, 2, 2, 0, c_white, rune_current_alpha);
+	
+	switch(i)
+	{
+		case 0:
+		draw_sprite_ext(sRune, 0, rune_x_position, rune_y_position, 2, 2, 0, c_white, rune_current_alpha);
+		break;
+		
+		case 1:
+		draw_sprite_ext(sRune2, 0, rune_x_position, rune_y_position, 2, 2, 0, c_white, rune_current_alpha);
+		break;
+		
+		case 2:
+		draw_sprite_ext(sRune3, 0, rune_x_position, rune_y_position, 2, 2, 0, c_white, rune_current_alpha);
+		break;
+	}
+	
 	rune_x_position += sprite_get_width(sRune)*2;
 }
 

@@ -1,7 +1,9 @@
 function moon(){
 	//player terminou o dialogo com a lua
 	//key_count += 1;
-	rune_count += 1;
+	if(instance_exists(oDialogueLua)) rune_count = 1;
+	if(instance_exists(oDialogueLua2)) rune_count = 2;
+	if(instance_exists(oDialogueLua3)) rune_count = 3;
 	
 	with(oLua)
 	{

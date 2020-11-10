@@ -1,0 +1,1 @@
+oEndGame.timer_rune_destroy = true;
