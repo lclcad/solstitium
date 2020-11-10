@@ -12,7 +12,8 @@ repeat(buttons)
 	draw_set_color(c_black);
 	
 	//cor do retangulo se estiver selecionado
-	if(menu_index == i) draw_set_color(c_white);
+	show_debug_message(string(mouseisover));
+	if(menu_index == i || (menu_index == i && menu_index == mouseisover)) draw_set_color(c_white);
 	
 	draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
 	
@@ -20,7 +21,7 @@ repeat(buttons)
 	draw_set_color(c_white);
 	
 	//cor do texto se estiver selecionado
-	if(menu_index == i) draw_set_color(c_black);
+	if(menu_index == i || (menu_index == i && menu_index == mouseisover)) draw_set_color(c_black);
 	
 	draw_text(xx + button_w/2, yy + button_h/2, button[i]);
 	i++;
