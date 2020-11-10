@@ -16,7 +16,6 @@ switch(menu_index)
 		file_text_close(file);
 		room_goto(target);
 	}
-	
 	break;
 	
 	case 2:
