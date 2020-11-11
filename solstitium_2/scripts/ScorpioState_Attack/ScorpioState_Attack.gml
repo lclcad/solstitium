@@ -4,8 +4,22 @@ function ScorpioState_Attack(){
 	var pl_dir = point_direction(x, y, oPlayer.x, oPlayer.y);
 	var abs_dir = "";
 	
+	//esquerda
+	if(pl_dir >= 90 && pl_dir <= 270)
+	{
+		abs_dir = "e";
+		show_debug_message("ATAQUE ESQUERDA");
+		if(sprite_index != sEscorpiaoAttack)
+		{
+			show_debug_message("antes: " + string(sprite_get_name(sprite_index)));
+			sprite_index = sEscorpiaoAttack;
+			image_index = 0;
+			mask_index = sEscorpiaoAttackHB;
+			show_debug_message("depois: " + string(sprite_get_name(sprite_index)));
+		}
+	}
 	//direita
-	if((pl_dir == 360 || pl_dir == 0) || (pl_dir > 270 && pl_dir <= 359) || (pl_dir > 0 && pl_dir <= 90))
+	if((pl_dir == 360 || pl_dir == 0) || (pl_dir > 270 && pl_dir <= 359) || (pl_dir > 0 && pl_dir < 90))
 	{
 		abs_dir = "d";
 		show_debug_message("ATAQUE DIREITA");
@@ -14,19 +28,6 @@ function ScorpioState_Attack(){
 			sprite_index = sEscorpiaoAttack;
 			image_index = 0;
 			mask_index = sEscorpiaoAttackHB; //hitbox
-		}
-	}
-	
-	//esquerda
-	else if(pl_dir > 90 && pl_dir <= 270)
-	{
-		abs_dir = "e";
-		show_debug_message("ATAQUE ESQUERDA");
-		if(sprite_index != sEscorpiaoAttackLeft || sprite_index == sEscorpiaoAttack)
-		{
-			sprite_index = sEscorpiaoAttackLeft;
-			image_index = 0;
-			mask_index = sEscorpiaoAttackHBLeft;
 		}
 	}
 	

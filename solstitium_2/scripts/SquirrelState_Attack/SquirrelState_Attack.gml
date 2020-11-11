@@ -19,14 +19,14 @@ function SquirrelState_Attack(){
 	
 	//esquerda
 	else if(pl_dir > 90 && pl_dir <= 270)
-	{
+	{	
 		abs_dir = "e";
 		show_debug_message("ATAQUE ESQUERDA");
-		if(sprite_index != sBoss3Left || sprite_index == sBoss3)
+		if(sprite_index != sBoss3)
 		{
-			sprite_index = sBoss3Left;
+			sprite_index = sBoss3;
 			image_index = 0;
-			mask_index = sEscorpiaoAttackHBLeft;
+			mask_index = sEscorpiaoAttackHB;
 		}
 	}
 	

@@ -9,6 +9,7 @@ switch(menu_index)
 	{
 		room_goto(roomDeserto);	
 	}
+	
 	else
 	{
 		var file = file_text_open_read(SAVEFILE);

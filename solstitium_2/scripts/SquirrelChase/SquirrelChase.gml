@@ -52,7 +52,7 @@ function SquirrelChase(){
 		switch(abs_dir)
 		{
 			case "d": sprite_index = sEscorpiaoAttack; break;
-			case "e": sprite_index = sEscorpiaoAttackLeft; bre
+			case "e": sprite_index = sEscorpiaoAttackLeft; break;
 		}*/
 		image_index = 0;
 		image_speed = 1.0;
