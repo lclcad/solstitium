@@ -1,4 +1,5 @@
 menu = oMenu;
+cancontinue = true;
 
 button_h = 45;
 button_w = 256;
