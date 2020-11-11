@@ -12,7 +12,7 @@ file_text_close(file);
 //SE MUDAR ORDEM OU ADD SALAS, MUDAR INDICE	AQUI
 if(room_get_name(room) == "roomDeserto" || room_get_name(room) == "roomBoss2" || room_get_name(room) == "roomMoon1") rune_count = 0;
 else if(room_get_name(room) == "roomCity1" || room_get_name(room) == "roomBoat1" || room_get_name(room) == "roomBoat2" || room_get_name(room) == "roomForest1" || room_get_name(room) == "roomBoss1" || room_get_name(room) == "roomMoon2") rune_count = 1;
-else if(room_get_name(room) == "roomForest2" || room_get_name(room) == "roomBoss3" || room_get_name(room) == "roomMoon3") rune_count = 2;
+else if(room_get_name(room) == "roomForest2" || room_get_name(room) == "roomCity2" || room_get_name(room) == "roomBoss3" || room_get_name(room) == "roomMoon3") rune_count = 2;
 else if(room_get_name(room) == "roomMontanha") rune_count = 3;
 
 else show_debug_message("ERRO NO RUNE HANDLER NO ROOM START DO PLAYER");
