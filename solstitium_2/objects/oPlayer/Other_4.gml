@@ -36,3 +36,10 @@ if(instance_exists(oDataCarrier)){
 		y = targetEnter.y;
 	}
 }
+
+if(!instance_exists(oPause)){
+	instance_create_depth(0, 0, 0, oPause);
+}
+if(!instance_exists(oSound)){
+	instance_create_depth(0, 0, 0, oSound);
+}

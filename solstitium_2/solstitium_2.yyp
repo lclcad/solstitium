@@ -76,6 +76,7 @@
     {"id":{"name":"sLua","path":"sprites/sLua/sLua.yy",},"order":19,},
     {"id":{"name":"sLuaBRIGHT","path":"sprites/sLuaBRIGHT/sLuaBRIGHT.yy",},"order":35,},
     {"id":{"name":"sAnciao","path":"sprites/sAnciao/sAnciao.yy",},"order":8,},
+    {"id":{"name":"oPause","path":"objects/oPause/oPause.yy",},"order":7,},
     {"id":{"name":"roomForest1","path":"rooms/roomForest1/roomForest1.yy",},"order":9,},
     {"id":{"name":"sLockedDoor","path":"sprites/sLockedDoor/sLockedDoor.yy",},"order":22,},
     {"id":{"name":"sDialogueAnciao","path":"sprites/sDialogueAnciao/sDialogueAnciao.yy",},"order":9,},

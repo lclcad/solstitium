@@ -28,6 +28,7 @@ rune_count = 0;
 //cria a variável que vê qual foi o último movimento feito
 last_pressed = "";
 
+
 //enum dos estados do player
 enum PLAYERSTATE
 {
