@@ -1,14 +1,14 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 0.22,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "menu_group",
-    "path": "audiogroups/menu_group",
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "soundMenu.wav",
   "duration": 86.9420547,

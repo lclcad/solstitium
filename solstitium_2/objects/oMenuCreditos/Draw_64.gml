@@ -13,7 +13,7 @@ repeat(buttons)
 	
 	draw_set_color(c_white);
 	
-	if(menu_index == i) {draw_set_color(c_teal);} 
+	//if(menu_index == i) {draw_set_color(c_teal);} 
 	
 	draw_text(xx + button_w/2, yy + button_h/2, button[i]);
 	i++;

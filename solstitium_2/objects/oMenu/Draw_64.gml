@@ -23,7 +23,7 @@ repeat(buttons)
 	//cor do retangulo se estiver selecionado
 	if(menu_index == i || (menu_index == i && menu_index == mouseisover)) {
 		draw_set_color(c_white);
-		show_debug_message("show");
+		//show_debug_message("show");
 	}
 	
 	draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);

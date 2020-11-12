@@ -9,8 +9,8 @@ button[0] = "Voltar";
 
 buttons = array_length_1d(button);
 
-x = (davi_menu_width/2) - (button_w/2);
-y = (maria_menu_height/2) - (((buttons*button_h) + ((buttons-1) * button_padding))/2);
+x = (davi_menu_width/2) + (davi_menu_width/4);
+y = (maria_menu_height/2) + (maria_menu_height/3);
 
 menu_index = 0;
 last_item_selected = 0;
