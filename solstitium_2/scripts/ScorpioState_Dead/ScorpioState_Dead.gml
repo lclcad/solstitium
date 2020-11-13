@@ -1,4 +1,4 @@
 function ScorpioState_Dead(){
 	state = SCORPIOSTATE.DEAD;
-	sprite_index = sEscorpiaoRight;
+	sprite_index = sEscorpiaoDie;
 }

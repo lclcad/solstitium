@@ -9,12 +9,12 @@ repeat(buttons)
 	yy = menu_y + (button_h	+ button_padding) * i;
 	
 	draw_set_color(c_black);
-	draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
+	//draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
 	
 	draw_set_color(c_white);
 	
 	//if(menu_index == i) {draw_set_color(c_teal);} 
 	
-	draw_text(xx + button_w/2, yy + button_h/2, button[i]);
+	//draw_text(xx + button_w/2, yy + button_h/2, button[i]);
 	i++;
 }

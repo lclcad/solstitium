@@ -27,9 +27,10 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[3] = "E... Quem a capturou deixou traços nessa masmorra.";
 				text[4] = "Deixa eu te ensinar como atacar o inimigo depois dessa porta";
 				text[5] = "Para atacar, clique na direção do seu inimigo";
-				text[6] = "Para correr, aperte shift";
-				text[7] = "Essa porta na escada está trancada. Para abrí-la você deve usar a chave";
-				text[8] = "Para pegá-la, aperte E";
+				text[6] = "Os inimigos guardam as chaves para a saída da masmorra. Quando você o matar, achará uma chave";
+				text[7] = "Para correr, aperte shift";
+				text[8] = "Essa porta na escada está trancada. Para abrí-la você deve usar a chave";
+				text[9] = "Para pegá-la, aperte E";
 				event_perform(ev_other, ev_user1);
 			}
 		}
