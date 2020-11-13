@@ -56,7 +56,7 @@ function ScorpioState_Attack(){
 	if(animation_end())
 	{
 		ds_list_destroy(hitByAttack);
-		mask_index = sEscorpiaoRight;
+		mask_index = sEscorpiaoRightHB;
 		state = SCORPIOSTATE.CHASE;
 		attack_cooldown = 0;
 		can_enemy_attack = false;

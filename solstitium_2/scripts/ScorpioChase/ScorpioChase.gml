@@ -1,7 +1,7 @@
 function ScorpioChase(){
 	sprite_index = sprMove;
 	
-	scorpioSpeed = 0.8 + random_range(0.1, 0.4);
+	scorpioSpeed = 0.8 + random_range(0.1, 0.2);
 	
 	if(instance_exists(target))
 	{
@@ -9,12 +9,18 @@ function ScorpioChase(){
 		yTo = target.y;
 		
 		var _distanceToGo = point_distance(x, y, xTo, yTo);
-		dir = point_direction(x, y, xTo, yTo);	
-		if(_distanceToGo > scorpioSpeed)
+		dir = point_direction(x, y, xTo, yTo);
+		if(_distanceToGo < 35) //distancia minima para andar, pra nao ficar dançando
+		{
+			hSpeed = 0;
+			vSpeed = 0;
+		}
+		else if(_distanceToGo > scorpioSpeed)
 		{
 			hSpeed = lengthdir_x(scorpioSpeed, dir);
 			vSpeed = lengthdir_y(scorpioSpeed, dir);
 		}
+		
 		else
 		{
 			hSpeed = lengthdir_x(_distanceToGo, dir);

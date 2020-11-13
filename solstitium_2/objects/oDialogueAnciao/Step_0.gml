@@ -1,6 +1,6 @@
 if(place_meeting(x, y, player)){ //checa a colisao
 	if(!instance_exists(diag_indicator) && player.state != PLAYERSTATE.DIALOGUE){
-		diag_indicator = instance_create_depth(dialog_char.x, dialog_char.y, dialog_char.depth - 1, oDialogueIndicator); //cria um indicador visual de que há um diálogo
+		diag_indicator = instance_create_depth(dialog_char.x, dialog_char.y, dialog_char.depth - 1, oKeyIndicator); //cria um indicador visual de que há um diálogo
 	}
 	with(diag_indicator){ //efeito de fade in do indicador
 		if(image_alpha <= 0.5){
@@ -30,7 +30,7 @@ if(place_meeting(x, y, player)){ //checa a colisao
 				text[6] = "Os inimigos guardam as chaves para a saída da masmorra. Quando você o matar, achará uma chave";
 				text[7] = "Para correr, aperte shift";
 				text[8] = "Essa porta na escada está trancada. Para abrí-la você deve usar a chave";
-				text[9] = "Para pegá-la, aperte E";
+				text[9] = "Para pegá-la, ou para falar com alguem, aperte E";
 				event_perform(ev_other, ev_user1);
 			}
 		}

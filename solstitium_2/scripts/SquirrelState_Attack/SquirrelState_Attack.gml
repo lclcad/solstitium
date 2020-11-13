@@ -13,7 +13,7 @@ function SquirrelState_Attack(){
 		{
 			sprite_index = sBoss3;
 			image_index = 0;
-			mask_index = sEscorpiaoAttackHB; //hitbox
+			mask_index = sSquirrelAttackHB; //hitbox
 		}
 	}
 	
@@ -26,7 +26,7 @@ function SquirrelState_Attack(){
 		{
 			sprite_index = sBoss3;
 			image_index = 0;
-			mask_index = sEscorpiaoAttackHB;
+			mask_index = sSquirrelAttackHB;
 		}
 	}
 	
@@ -57,7 +57,7 @@ function SquirrelState_Attack(){
 	if(animation_end())
 	{
 		ds_list_destroy(hitByAttack);
-		mask_index = sBoss3;
+		mask_index = sBoss3HB;
 		state = SQUIRRELSTATE.CHASE;
 		attack_cooldown = 0;
 		can_enemy_attack = false;

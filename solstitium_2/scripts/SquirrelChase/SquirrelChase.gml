@@ -1,7 +1,7 @@
 function SquirrelChase(){
 	sprite_index = sprMove;
 	
-	squirrelSpeed = 0.8 + random_range(0.1, 0.3);
+	squirrelSpeed = 0.8 + random_range(0.5, 0.7);
 	
 	if(instance_exists(target))
 	{
@@ -9,12 +9,19 @@ function SquirrelChase(){
 		yTo = target.y;
 		
 		var _distanceToGo = point_distance(x, y, xTo, yTo);
-		dir = point_direction(x, y, xTo, yTo);	
-		if(_distanceToGo > squirrelSpeed)
+		dir = point_direction(x, y, xTo, yTo);
+		if(_distanceToGo < 30) //distancia minima para andar, pra nao ficar dançando
+		{
+			hSpeed = 0;
+			vSpeed = 0;
+		}
+		
+		else if(_distanceToGo > squirrelSpeed)
 		{
 			hSpeed = lengthdir_x(squirrelSpeed, dir);
 			vSpeed = lengthdir_y(squirrelSpeed, dir);
 		}
+		
 		else
 		{
 			hSpeed = lengthdir_x(_distanceToGo, dir);
