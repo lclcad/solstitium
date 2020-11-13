@@ -21,7 +21,6 @@ if(current_room != last_room)
 		if(audio_is_playing(sound_boss_intro)) audio_sound_gain(sound_boss_intro, 0, 500);
 		
 		audio_play_sound(soundTrack1, 1, true);
-		audio_sound_gain(soundTrack1, 1, 1);
 	}
 	
 	else if((current_room == "roomMoon1" || current_room == "roomMoon2" || current_room == "roomMoon3" || current_room == "roomMontanha") && !audio_is_playing(sound_lua))

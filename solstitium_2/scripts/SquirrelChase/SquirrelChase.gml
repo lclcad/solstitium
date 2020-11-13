@@ -1,7 +1,7 @@
 function SquirrelChase(){
 	sprite_index = sprMove;
 	
-	squirrelSpeed = 0.8 + random_range(0.1, 0.8);
+	squirrelSpeed = 0.8 + random_range(0.1, 0.3);
 	
 	if(instance_exists(target))
 	{
