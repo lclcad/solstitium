@@ -4,7 +4,7 @@ player = oPlayer;
 
 collidable = false;
 
-hp = 20;
+hp = 25;
 is_hit = false;
 is_hitable = true;
 attack_threshold = 40;

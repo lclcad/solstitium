@@ -1,2 +1,2 @@
 /// @description previous room
-room_goto_previous();
+//room_goto_previous();
