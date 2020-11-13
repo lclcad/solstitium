@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Boss 1/Boss Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlantStateDead",
+  "name": "PlantState_Dead",
   "tags": [],
   "resourceType": "GMScript",
 }

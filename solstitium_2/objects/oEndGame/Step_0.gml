@@ -7,6 +7,8 @@ if(timer_has_ended)
 	if(instance_exists(oPlayer)) instance_destroy(oPlayer);
 }
 
+if(instance_exists(oPause)) instance_destroy(oPause);
+
 if(timer_rune_destroy)
 {
 	if(instance_exists(player)) player.rune_count = 0;

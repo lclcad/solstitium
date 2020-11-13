@@ -15,9 +15,7 @@ if(keyboard_check(vk_anykey) - keyboard_check(vk_escape) || mouse_check_button(m
 	}
 }
 
-
-
-
+//
 if(pause == false){
 	instance_activate_all();
 	surface_free(paused_surf);

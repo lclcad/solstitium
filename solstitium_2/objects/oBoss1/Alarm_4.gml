@@ -2,7 +2,8 @@
 x = start_x_pos;
 y = start_y_pos;
 
-state = PLANTSTATE.CHOSEATTACK;
+if(state != PLANTSTATE.DEAD) state = PLANTSTATE.CHOSEATTACK;
+
 is_hitable = false;
 with(oFlower){
 	state = FLOWERSTATE.INACTIVE;

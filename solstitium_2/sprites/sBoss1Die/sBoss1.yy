@@ -76,7 +76,7 @@
     "eventStubScript": null,
     "parent": {"name":"sBoss1","path":"sprites/sBoss1/sBoss1.yy",},
     "resourceVersion": "1.3",
-    "name": "sBoss1",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

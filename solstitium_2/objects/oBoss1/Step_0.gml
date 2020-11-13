@@ -5,4 +5,5 @@ switch(state){
 	case PLANTSTATE.ATKPOISON: break;
 	case PLANTSTATE.ATKFIRE: PlantStateAtkFire(); break;
 	case PLANTSTATE.ATKBASH: depth = 0; PlantStateAtkBash(); break;
+	case PLANTSTATE.DEAD: PlantState_Dead(); break;
 }

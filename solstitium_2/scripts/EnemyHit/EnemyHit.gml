@@ -12,6 +12,7 @@ function EnemyHit(argument0) {
 		hp = 0;
 		state = PLANTSTATE.INACTIVE;
 		if(room_get_name(room) == "roomBoss2") state = SCORPIOSTATE.DEAD;
+		if(room_get_name(room) == "roomBoss1") state = PLANTSTATE.DEAD;
 		if(room_get_name(room) == "roomBoss3") state = SQUIRRELSTATE.DEAD;
 		
 		if (player.key_count <= 0) player.key_count += 1;

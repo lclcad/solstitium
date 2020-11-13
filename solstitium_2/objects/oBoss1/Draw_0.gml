@@ -1,5 +1,5 @@
 switch(state){
-	case PLANTSTATE.INACTIVE: draw_sprite(sBoss1, 0, x, y);
+	//case PLANTSTATE.INACTIVE: draw_sprite(sBoss1, 0, x, y);
 	case PLANTSTATE.CHOSEATTACK:
 		if(alarm[1] mod room_speed == 0){//muda a cor efetiva dos olhos a cada 1 segundo
 			cur_color ++;
