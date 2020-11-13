@@ -4,7 +4,7 @@ button_h = 45;
 button_w = 256;
 button_padding = 8;
 
-//TESTE DE MOUSE
+//MOUSE
 
 mouseover0 = false;
 mouseover1 = false;

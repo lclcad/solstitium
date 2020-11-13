@@ -11,11 +11,9 @@ function ScorpioState_Attack(){
 		show_debug_message("ATAQUE ESQUERDA");
 		if(sprite_index != sEscorpiaoAttack)
 		{
-			show_debug_message("antes: " + string(sprite_get_name(sprite_index)));
 			sprite_index = sEscorpiaoAttack;
 			image_index = 0;
 			mask_index = sEscorpiaoAttackHB;
-			show_debug_message("depois: " + string(sprite_get_name(sprite_index)));
 		}
 	}
 	//direita
